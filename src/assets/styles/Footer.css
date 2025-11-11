@@ -1,0 +1,11 @@
+.footer {
+  background: linear-gradient(135deg, #0a28afe7 0%, #0a0114 100%);
+  color: #ecf0f1;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.footer p {
+  font-size: 1rem;
+}

@@ -1,3 +1,5 @@
+import "./assets/styles/HomePageStyles.css";
+
 export default function Home() {
   return (
     <div className="home">

@@ -1,9 +1,11 @@
-import { useState } from 'react';
-import Home from './Home';
-import Contact from './Contact';
+import { useState } from "react";
+import Home from "./Home";
+import Contact from "./Contact";
+import "./assets/styles/NavigationBar.css";
+import "./assets/styles/Footer.css";
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('home');
+  const [activeTab, setActiveTab] = useState("home");
 
   return (
     <div className="app">
@@ -15,16 +17,16 @@ export default function App() {
           <ul className="nav-menu">
             <li>
               <button
-                className={activeTab === 'home' ? 'active' : ''}
-                onClick={() => setActiveTab('home')}
+                className={activeTab === "home" ? "active" : ""}
+                onClick={() => setActiveTab("home")}
               >
                 Home
               </button>
             </li>
             <li>
               <button
-                className={activeTab === 'contact' ? 'active' : ''}
-                onClick={() => setActiveTab('contact')}
+                className={activeTab === "contact" ? "active" : ""}
+                onClick={() => setActiveTab("contact")}
               >
                 Contact
               </button>
@@ -34,8 +36,8 @@ export default function App() {
       </nav>
 
       <main className="main-content">
-        {activeTab === 'home' && <Home />}
-        {activeTab === 'contact' && <Contact />}
+        {activeTab === "home" && <Home />}
+        {activeTab === "contact" && <Contact />}
       </main>
 
       <footer className="footer">
