@@ -17,17 +17,14 @@ export default function Home() {
       <section className="features">
         <div className="features-container">
           <div className="feature-card">
-            <div className="feature-icon">🏺</div>
             <h3>Quality Products</h3>
             <p>Premium ceramic products manufactured with precision and care</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">🌍</div>
             <h3>Global Reach</h3>
             <p>Exporting to over 50 countries with reliable logistics</p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">✨</div>
             <h3>Custom Solutions</h3>
             <p>Tailored ceramic solutions to meet your specific requirements</p>
           </div>
