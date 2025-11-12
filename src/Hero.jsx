@@ -1,7 +1,6 @@
 import React from "react";
-import heroImage from "./assets/images/hero-bg.jpg"; // استيراد الصورة
-import "./assets/styles/Hero.css"; // استيراد ملف CSS الخاص بالـ Hero
-
+import heroImage from "./assets/images/hero-bg.jpg";
+import "./assets/styles/Hero.css";
 export default function Hero() {
   return (
     <section
