@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./assets/styles/HeroCarousel.css";
+import "./styles/HeroCarousel.css";
 
 import hero1 from "./assets/images/hero1.jpg";
 import hero2 from "./assets/images/hero2.jpg";
