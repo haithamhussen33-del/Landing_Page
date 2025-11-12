@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
-import "./assets/styles/NavigationBar.css";
-import "./assets/styles/Footer.css";
+import "./styles/NavigationBar.css";
+import "./styles/Footer.css";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("home");
