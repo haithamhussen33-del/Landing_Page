@@ -1,5 +1,5 @@
 import "../styles/HomePageStyles.css";
-import Hero from "./Hero";
+
 import HeroCarousel from "./HeroCarousel";
 export default function Home() {
   return (
