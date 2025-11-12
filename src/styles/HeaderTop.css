@@ -1,0 +1,32 @@
+.header-top {
+  background-color: #111;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 8px 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.header-top-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info span {
+  margin-right: 15px;
+  opacity: 0.85;
+}
+
+.top-links a {
+  color: #ccc;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.top-links a:hover {
+  color: #c19b76;
+}

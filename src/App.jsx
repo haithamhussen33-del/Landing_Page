@@ -3,15 +3,19 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import "./styles/NavigationBar.css";
 import "./styles/Footer.css";
+import logoImage from "./assets/images/hero-bg.jpg";
+import HeaderTop from "./components/HeaderTop";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("home");
 
   return (
     <div className="app">
+      <HeaderTop />
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
+            <img src={logoImage} alt="Company Logo" className="logo-img" />
             <h1>CeramicExport</h1>
           </div>
           <ul className="nav-menu">

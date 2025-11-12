@@ -8,9 +8,8 @@ export default function Home() {
       <HeroCarousel />
       <br></br>
       <br></br>
-      <div className="home2">
-        <ServicesFlip />
-      </div>
+
+      <ServicesFlip />
 
       <section className="hero">
         <div className="hero-content">
