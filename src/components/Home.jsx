@@ -1,5 +1,6 @@
 import "../styles/HomePageStyles.css";
 
+import ServicesFlip from "./ServicesFlip";
 import HeroCarousel from "./HeroCarousel";
 export default function Home() {
   return (
@@ -7,6 +8,10 @@ export default function Home() {
       <HeroCarousel />
       <br></br>
       <br></br>
+      <div className="home2">
+        <ServicesFlip />
+      </div>
+
       <section className="hero">
         <div className="hero-content">
           <h1>Premium Ceramic Exports</h1>
