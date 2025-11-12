@@ -1,14 +1,9 @@
 import "../styles/HomePageStyles.css";
-import Hero from "./Hero";
+
 import HeroCarousel from "./HeroCarousel";
 export default function Home() {
   return (
     <div className="home">
-      <br></br>
-      <br></br>
-      <Hero />
-      <br></br>
-      <br></br>
       <HeroCarousel />
       <br></br>
       <br></br>
