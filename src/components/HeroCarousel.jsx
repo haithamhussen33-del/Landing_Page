@@ -6,7 +6,20 @@ import hero2 from "../assets/images/hero2.jpg";
 import hero3 from "../assets/images/hero3.jpg";
 
 const images = [hero1, hero2, hero3];
-
+const talk = [
+  {
+    title: "Discover Timeless Elegance",
+    subtitle: "Premium Ceramic Exports — Crafting Excellence for Modern Spaces",
+  },
+  {
+    title: "Discover ME",
+    subtitle: "Premium MOMO",
+  },
+  {
+    title: "Discover123123123",
+    subtitle: "Premium M12323123",
+  },
+];
 export default function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -36,11 +49,8 @@ export default function HeroCarousel() {
         >
           <div className="hero-overlay"></div>
           <div className="hero-content">
-            <h1 className="hero-title">Discover Timeless Elegance</h1>
-            <p className="hero-subtitle">
-              Premium Ceramic Exports — Crafting Excellence for Modern Spaces
-            </p>
-            <button className="hero-btn">Explore More</button>
+            <h1 className="hero-title">{talk[index].title}</h1>
+            <p className="hero-subtitle">{talk[index].subtitle}</p>
           </div>
         </div>
       ))}
