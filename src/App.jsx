@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Home from "./Home";
-import Contact from "./Contact";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
 import "./assets/styles/NavigationBar.css";
 import "./assets/styles/Footer.css";
 
