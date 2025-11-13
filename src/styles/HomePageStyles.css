@@ -1,6 +1,6 @@
 .hero {
   background: linear-gradient(135deg, #000416e7 0%, #0a0114 100%);
-  color: white;
+
   padding: 6rem 2rem;
   text-align: center;
 }
@@ -27,7 +27,6 @@
 /* Features Section */
 .features {
   padding: 4rem 2rem;
-  background-color: #f8f9fa;
 }
 
 .features-container {
@@ -58,20 +57,17 @@
 }
 
 .feature-card h3 {
-  color: #2c3e50;
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
 .feature-card p {
-  color: #7f8c8d;
   line-height: 1.6;
 }
 
 /* About Section */
 .about {
   padding: 4rem 2rem;
-  background-color: #fff;
 }
 
 .about-content {
@@ -82,13 +78,13 @@
 
 .about-content h2 {
   font-size: 2.5rem;
-  color: #2c3e50;
+
   margin-bottom: 1.5rem;
 }
 
 .about-content > p {
   font-size: 1.1rem;
-  color: #555;
+
   line-height: 1.8;
   margin-bottom: 3rem;
 }
@@ -106,7 +102,7 @@
 
 .stat h3 {
   font-size: 3rem;
-  color: #e67e22;
+
   margin-bottom: 0.5rem;
 }
 

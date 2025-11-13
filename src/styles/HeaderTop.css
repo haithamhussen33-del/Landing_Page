@@ -15,9 +15,13 @@
   align-items: center;
 }
 
-.contact-info span {
+.contact-info span,
+a {
   margin-right: 15px;
   opacity: 0.85;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
 }
 
 .top-links a {

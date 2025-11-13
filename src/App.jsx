@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import "./styles/NavigationBar.css";
 import "./styles/Footer.css";
-import logoImage from "./assets/images/hero-bg.jpg";
+import logoImage from "./assets/images/logocasa.png";
 import HeaderTop from "./components/HeaderTop";
 
 export default function App() {
@@ -16,7 +16,6 @@ export default function App() {
         <div className="nav-container">
           <div className="logo">
             <img src={logoImage} alt="Company Logo" className="logo-img" />
-            <h1>CeramicExport</h1>
           </div>
           <ul className="nav-menu">
             <li>
@@ -45,7 +44,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>&copy; 2024 CeramicExport. All rights reserved.</p>
+        <p>&copy; 2025 Casapiugroup. All rights reserved.</p>
       </footer>
     </div>
   );

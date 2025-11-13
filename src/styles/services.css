@@ -38,6 +38,6 @@ section {
 }
 .flip-back {
   background: #c19b76;
-  color: white;
+
   transform: rotateY(180deg);
 }
