@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import "./styles/NavigationBar.css";
 import "./styles/Footer.css";
-import logoImage from "./assets/images/logocasa.png";
+import logoImage from "./assets/images/logo-f-trans.svg";
 import HeaderTop from "./components/HeaderTop";
 
 export default function App() {

@@ -1,13 +1,13 @@
 .header-top {
   background-color: #111;
-  color: #fff;
+
   font-size: 0.9rem;
   padding: 8px 0;
   font-family: "Segoe UI", sans-serif;
 }
 
 .header-top-container {
-  max-width: 1200px;
+  max-width: 100dvw;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -21,7 +21,6 @@ a {
   opacity: 0.85;
   text-decoration: none;
   color: #fff;
-  transition: color 0.3s;
 }
 
 .top-links a {

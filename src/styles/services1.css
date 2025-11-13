@@ -1,0 +1,22 @@
+section {
+  padding: 60px 20px;
+}
+
+/* Flip */
+.flip-container1 {
+  display: block;
+  place-items: center;
+
+  position: relative;
+}
+.flip-card1 {
+  width: 95vw;
+  height: 100vh;
+  background-color: aqua;
+  border-radius: 10px;
+  margin-top: 1rem;
+  top: 0;
+}
+.flip-card1 p {
+  font-size: x-large;
+}
