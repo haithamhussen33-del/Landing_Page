@@ -34,7 +34,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f0f0f0;
+  background-color: var(--primary);
 }
 .flip-back {
   background: #c19b76;

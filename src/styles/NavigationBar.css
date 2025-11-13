@@ -1,5 +1,4 @@
 .navbar {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   padding: 1rem 2rem;
 
   position: static;
@@ -7,10 +6,10 @@
 }
 
 .nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-height: fit-content;
+  margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -21,12 +20,13 @@
   letter-spacing: 1px;
 }
 .logo-img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 
 .nav-menu {
   display: flex;
+  margin-left: auto;
   list-style: none;
   gap: 2rem;
 }

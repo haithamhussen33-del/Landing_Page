@@ -12,6 +12,7 @@ export default function App() {
   return (
     <div className="app">
       <HeaderTop />
+
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">

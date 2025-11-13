@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/services.css";
+import { motion } from "motion/react";
 
 export default function ServicesFlip() {
   const cards = [

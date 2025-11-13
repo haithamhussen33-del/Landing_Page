@@ -1,5 +1,5 @@
 import "../styles/HomePageStyles.css";
-
+import CardRoulet from "./CardRoulet";
 import ServicesFlip from "./ServicesFlip";
 import HeroCarousel from "./HeroCarousel";
 export default function Home() {
@@ -10,6 +10,9 @@ export default function Home() {
       <br></br>
 
       <ServicesFlip />
+      <br />
+      <br />
+      <CardRoulet />
 
       <section className="hero">
         <div className="hero-content">
