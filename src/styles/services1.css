@@ -6,17 +6,13 @@ section {
 .flip-container1 {
   display: block;
   place-items: center;
-
-  position: relative;
 }
 .flip-card1 {
   width: 85dvw;
-  height: 100vh;
+  height: 100dvh;
   background-color: rgb(219, 216, 5);
   border-radius: 10px;
   margin-top: 5rem;
-  top: 0;
-  box-shadow: 10, 10, 10, rgba(0, 0, 0, 0.993);
 }
 .flip-card1 p {
   font-size: x-large;
