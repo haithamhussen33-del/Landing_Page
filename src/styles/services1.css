@@ -10,12 +10,13 @@ section {
   position: relative;
 }
 .flip-card1 {
-  width: 95vw;
+  width: 85dvw;
   height: 100vh;
-  background-color: aqua;
+  background-color: rgb(219, 216, 5);
   border-radius: 10px;
-  margin-top: 1rem;
+  margin-top: 5rem;
   top: 0;
+  box-shadow: 10, 10, 10, rgba(0, 0, 0, 0.993);
 }
 .flip-card1 p {
   font-size: x-large;

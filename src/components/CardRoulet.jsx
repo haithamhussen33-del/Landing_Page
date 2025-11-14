@@ -18,15 +18,15 @@ export default function CardRoulet() {
     });
 
     // Hold the appearance while fully in view, then animate as it leaves
-    const y = useTransform(scrollYProgress, [0, 0.15, 1], [0, 0, -250]);
-    const scale = useTransform(scrollYProgress, [0, 0.15, 1], [1, 1, 0.5]);
-    const opacity = useTransform(scrollYProgress, [0, 0.15, 1], [1, 1, 0.1]);
+    const y = useTransform(scrollYProgress, [0, 0.3, 1], [0, 0, -150]);
+    const scale = useTransform(scrollYProgress, [0, 0.3, 1], [1, 1, 0.5]);
+    const opacity = useTransform(scrollYProgress, [0, 0.3, 1], [1, 1, 0.5]);
 
     return (
       <motion.div
         ref={ref}
         style={{ y, scale, opacity, zIndex: total - index }}
-        viewport={{ amount: 0.1 }}
+        viewport={{ amount: "all" }}
         className="flip-card1"
       >
         {children}
