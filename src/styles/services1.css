@@ -10,7 +10,7 @@ section {
 .flip-card1 {
   width: 85dvw;
   height: 100dvh;
-  background-color: rgb(219, 216, 5);
+  background-color: var(--secondary);
   border-radius: 10px;
   margin-top: 5rem;
 }

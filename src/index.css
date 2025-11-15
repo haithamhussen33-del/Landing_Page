@@ -1,17 +1,14 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css?family=Lato:700|Inter:400");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@import url("https://fonts.googleapis.com/css?family=DM%20Serif%20Display:700|Inter:400");
-body {
   font-family: "Inter";
   font-weight: 400;
-  margin: 0;
-  padding: 0;
-  background: var(--background);
-  color: var(--text);
+}
+
+body {
 }
 
 h1,
@@ -19,7 +16,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "DM Serif Display";
+  font-family: "Lato";
   font-weight: 700;
 }
 
@@ -50,21 +47,20 @@ h5 {
 small {
   font-size: 0.75rem; /* 12px */
 }
-
 :root {
   line-height: 1.6;
   font-weight: 400;
-  color: #333;
-  background-color: #ffffff;
+  color: var(--text);
+  background-color: var(--background);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --text: #000000;
-  --background: #f4f4e6;
-  --primary: #edc121;
-  --secondary: #f5f5f5;
-  --accent: #ffffff;
+  --text: #1e1e1e;
+  --background: #f7f7f7;
+  --primary: #b89c3a;
+  --secondary: #e6e6e6;
+  --accent: #d8cfb2;
 }
 
 /* Main Content */
@@ -75,7 +71,6 @@ small {
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
-    flex-direction: column;
     gap: 1rem;
   }
 
