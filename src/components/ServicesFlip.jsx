@@ -4,7 +4,10 @@ import { motion } from "motion/react";
 
 export default function ServicesFlip() {
   const cards = [
-    { front: "Design", back: "We create custom ceramic designs." },
+    {
+      front: "أمان ",
+      back: "بضائعنا مؤمنة من قبل افضل شركات التامين العالمية",
+    },
     { front: "Quality", back: "We ensure high quality in every product." },
     { front: "Support", back: "We offer 24/7 client assistance." },
   ];
