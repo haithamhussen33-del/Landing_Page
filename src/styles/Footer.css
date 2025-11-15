@@ -1,11 +1,94 @@
 .footer {
-  background: linear-gradient(135deg, #0a28afe7 0%, #0a0114 100%);
-  color: #ecf0f1;
-  text-align: center;
-  padding: 2rem;
+  background: #1a1a1a;
+  color: #e5e5e5;
+  padding: 3rem 1.5rem 1rem;
   margin-top: 3rem;
+  border-top: 2px solid #333;
 }
 
-.footer p {
-  font-size: 1rem;
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  gap: 2rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* العناوين */
+.footer-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #c8a27a; /* لون ذهبي يناسب السيراميك */
+  margin-bottom: 1rem;
+}
+
+.footer-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #c8a27a;
+}
+
+.footer-text {
+  line-height: 1.6;
+}
+
+/* عناصر التواصل */
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  color: #c8a27a;
+}
+
+/* السوشيال ميديا */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a svg {
+  width: 28px;
+  height: 28px;
+  color: #c8a27a;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover svg {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+/* الخط السفلي */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* موبايل */
+@media (max-width: 480px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-item {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
 }

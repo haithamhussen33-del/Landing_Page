@@ -5,6 +5,7 @@ import "./styles/NavigationBar.css";
 import "./styles/Footer.css";
 import logoImage from "./assets/images/logo-f-trans.svg";
 import HeaderTop from "./components/HeaderTop";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("home");
@@ -44,9 +45,7 @@ export default function App() {
         {activeTab === "contact" && <Contact />}
       </main>
 
-      <footer className="footer">
-        <p>&copy; 2025 Casapiugroup. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
