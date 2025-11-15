@@ -110,3 +110,38 @@
   color: #7f8c8d;
   font-size: 1.1rem;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+    padding: 0 4px;
+  }
+  .features {
+    padding: 2.5rem 1rem;
+  }
+  .features-container {
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  .feature-card {
+    padding: 1.25rem;
+  }
+  .about {
+    padding: 2.5rem 1rem;
+  }
+  .about-content h2 {
+    font-size: 2rem;
+  }
+  .stat h3 {
+    font-size: 2.2rem;
+  }
+}

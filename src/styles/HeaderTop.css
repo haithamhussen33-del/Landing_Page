@@ -1,9 +1,7 @@
 .header-top {
   background-color: #111;
-
   font-size: 0.9rem;
   padding: 8px 0;
-  font-family: "Segoe UI", sans-serif;
 }
 
 .header-top-container {
@@ -20,16 +18,26 @@ a {
   margin-right: 15px;
   opacity: 0.85;
   text-decoration: none;
-  color: #fff;
+  transition: color 0.3s;
+  color: var(--accent);
 }
 
 .top-links a {
-  color: #ccc;
+  color: var(--accent);
   margin-left: 20px;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .top-links a:hover {
-  color: #c19b76;
+  color: var(--primary);
+}
+.contact-info span:hover,
+.contact-info a:hover {
+  color: var(--primary);
+}
+@media (max-width: 768px) {
+  .header-top {
+    display: none;
+  }
 }

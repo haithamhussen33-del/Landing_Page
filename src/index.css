@@ -89,4 +89,12 @@ small {
   .contact-hero h1 {
     font-size: 2rem;
   }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
