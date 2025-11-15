@@ -2,6 +2,9 @@
 .flip-container1 {
   display: block;
   place-items: center;
+  background-image: url("../assets/images/mossaik.svg");
+  background-size: contain;
+  background-position: center;
 }
 .flip-card1 {
   width: 85dvw;
