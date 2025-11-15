@@ -50,3 +50,16 @@ section {
 
   transform: rotateY(180deg);
 }
+/* عرض الكروت في الموبايل */
+@media (max-width: 600px) {
+  .flip-card {
+    width: 90%;
+    height: 200px;
+  }
+
+  .flip-front,
+  .flip-back {
+    font-size: 16px;
+    padding: 1rem;
+  }
+}

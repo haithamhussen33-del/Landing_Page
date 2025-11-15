@@ -6,7 +6,7 @@ import "./styles/Footer.css";
 import logoImage from "./assets/images/logo-f-trans.svg";
 import HeaderTop from "./components/HeaderTop";
 import Footer from "./components/Footer";
-
+import "./index.css";
 export default function App() {
   const [activeTab, setActiveTab] = useState("home");
 

@@ -105,3 +105,22 @@ small {
     height: auto;
   }
 }
+
+/* من اجل النصوص على الهاتف وهي قاعدة عامة */
+@media (max-width: 768px) {
+  p,
+  h1,
+  h2,
+  h3,
+  h4 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+/* للصور */
+img {
+  max-width: 100%;
+  height: auto;
+}

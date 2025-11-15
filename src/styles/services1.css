@@ -1,7 +1,9 @@
 /* Flip */
 .flip-container1 {
-  display: block;
-  place-items: center;
+  /* display: block;
+  place-items: center; */
+  flex-direction: column;
+  width: 100%;
 }
 .flip-card1 {
   width: 85dvw;
