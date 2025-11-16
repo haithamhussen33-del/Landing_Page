@@ -15,26 +15,26 @@
 
 .contact-info span,
 a {
+  color: var(--background);
   margin-right: 15px;
   opacity: 0.85;
   text-decoration: none;
   transition: color 0.3s;
-  color: var(--accent);
 }
 
 .top-links a {
-  color: var(--accent);
+  color: var(--background);
   margin-left: 20px;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .top-links a:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 .contact-info span:hover,
 .contact-info a:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 @media (max-width: 768px) {
   .header-top {

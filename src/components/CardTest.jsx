@@ -71,10 +71,10 @@ const StickyImage = ({ imgUrl }) => {
         scale,
       }}
       ref={targetRef}
-      className="sticky z-0 overflow-hidden rounded-3xl"
+      className="sticky z-0 overflow-hidden rounded-3xl "
     >
       <motion.div
-        className="absolute inset-0 "
+        className="absolute inset-0  bg-neutral-950/70"
         style={{
           opacity,
         }}
@@ -111,8 +111,8 @@ const OverlayCopy = ({ subheading, heading }) => {
 };
 
 const ExampleContent = () => (
-  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12 bg-(--secondary) rounded-lg">
-    <h2 className="col-span-1 text-3xl  md:col-span-4">
+  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+    <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
       Additional content explaining the above card here
     </h2>
     <div className="col-span-1 md:col-span-8">

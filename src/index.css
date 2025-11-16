@@ -63,11 +63,11 @@ small {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --text: #1e1e1e;
-  --background: #f7f7f7;
-  --primary: #b89c3a;
-  --secondary: #e6e6e6;
-  --accent: #d8cfb2;
+  --text: #1a1a1a;
+  --background: #ffffff;
+  --primary: #c9a227;
+  --secondary: #f5f5f5;
+  --accent: #d4c39a;
 }
 
 /* Main Content */

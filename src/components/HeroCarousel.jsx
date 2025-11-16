@@ -56,7 +56,22 @@ export default function HeroCarousel() {
         </div>
       ))}
 
-      {/* يمين ويسار أزرار التنقل */}
+      <button className="prev" onClick={prevSlide}>
+        &#10094;
+      </button>
+      <button className="next" onClick={nextSlide}>
+        &#10095;
+      </button>
+      {/* هون منضيف النقاط باسفل الهيرو */}
+      <div className="indicators">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`dot ${index === currentIndex ? "active" : ""}`}
+            onClick={() => setCurrentIndex(index)}
+          ></span>
+        ))}
+      </div>
     </section>
   );
 }

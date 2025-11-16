@@ -21,7 +21,7 @@ export default function HeaderTop() {
           </span>
         </div>
         <div className="top-links">
-          <a href="https://maps.app.goo.gl/9Sk1Cr7teumxpLnAA">
+          <a href="https://maps.app.goo.gl/9Sk1Cr7teumxpLnAA" target="_blank">
             <MyLocationSharpIcon fontSize="small" /> Theo Uden Masmanstraat 52,
             3813 ZE Amersfoort
           </a>

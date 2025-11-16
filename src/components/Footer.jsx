@@ -63,7 +63,7 @@ export default function Footer() {
 
       {/* الخط السفلي */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} CeramicExport — All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Casapiugroup — All Rights Reserved.</p>
       </div>
     </footer>
   );

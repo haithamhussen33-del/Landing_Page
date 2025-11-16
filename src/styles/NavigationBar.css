@@ -1,7 +1,8 @@
 .navbar {
-  background-color: #0e0e0e;
+  background-color: var(--background);
   max-height: 100vh;
   max-height: 100vh;
+  border-bottom: 0.15rem solid var(--accent);
 }
 
 .nav-container {
@@ -9,12 +10,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1% 5%;
+  padding: 1%;
 }
 
-.logo-img {
-  height: 80px;
-  width: 100px;
+.logo {
+  height: 3.8rem;
+  width: 5rem;
+  margin: 1rem;
 }
 
 .nav-menu {
@@ -27,13 +29,18 @@
 .nav-menu button {
   background: none;
   border: none;
-
   font-size: 1.1rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
   border-radius: 5px;
   font-weight: 500;
+}
+.nav-menu li button:active {
+  color: var(--primary);
+}
+.nav-menu li button:hover {
+  color: var(--accent);
 }
 
 @media (max-width: 768px) {
