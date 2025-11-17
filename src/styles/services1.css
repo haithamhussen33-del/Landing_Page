@@ -1,16 +1,10 @@
-/* Flip */
-.flip-container1 {
+.services-flip1 {
   display: flex;
   flex-direction: column;
 }
-.flip-card1 {
-  width: 85dvw;
-  height: 100dvh;
-  background-color: var(--secondary);
-  border-radius: 10px;
-  margin-top: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid var(--accent);
-  box-shadow: 0 0 10px var(--accent);
+
+.services-flip1 h2 {
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
 }

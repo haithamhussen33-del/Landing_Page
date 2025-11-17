@@ -7,6 +7,7 @@ import logoImage from "./assets/images/casa-logo.png";
 import HeaderTop from "./components/HeaderTop";
 import Footer from "./components/Footer";
 import "./index.css";
+
 export default function App() {
   const [activeTab, setActiveTab] = useState("home");
 

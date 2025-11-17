@@ -1,6 +1,9 @@
-.hero {
-  background: linear-gradient(135deg, #000416e7 0%, #0a0114 100%);
+.home {
+  display: flex;
+  flex-direction: column;
+}
 
+.hero {
   padding: 6rem 2rem;
   text-align: center;
 }
@@ -25,45 +28,6 @@
 }
 
 /* Features Section */
-.features {
-  padding: 4rem 2rem;
-}
-
-.features-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.feature-card {
-  background: white;
-  padding: 2rem;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
-
-.feature-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.feature-card h3 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-.feature-card p {
-  line-height: 1.6;
-}
 
 /* About Section */
 .about {

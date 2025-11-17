@@ -10,7 +10,7 @@
 
 body {
   background-color: var(--background);
-  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+  background-image: url("../src/assets/images/repeated-square-dark.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
