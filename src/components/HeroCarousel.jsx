@@ -97,18 +97,6 @@ export default function HeroCarousel() {
           <path d="M 0 1 L 10 -2 L 20 1 Z" fill="#F7F7F7" />
         </svg>
       </div>
-      <img
-        style={{
-          position: "absolute",
-          left: 0,
-          bottom: 0,
-          width: "100%",
-          zIndex: 10,
-          pointerEvents: "none",
-        }}
-        src="../assets/images/casa-only.gif"
-        alt=""
-      />
     </section>
   );
 }
