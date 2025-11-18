@@ -24,7 +24,6 @@ const talk = [
 export default function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // الانتقال التلقائي كل 5 ثواني
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
@@ -62,7 +61,7 @@ export default function HeroCarousel() {
       <button className="next" onClick={nextSlide}>
         &#10095;
       </button>
-      {/* هون منضيف النقاط باسفل الهيرو */}
+
       <div className="indicators">
         {images.map((_, index) => (
           <span
@@ -72,6 +71,44 @@ export default function HeroCarousel() {
           ></span>
         ))}
       </div>
+      {/* SVG Shape Divider */}
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          bottom: 0,
+          width: "100%",
+          zIndex: 10,
+          pointerEvents: "none",
+          background: "inherit",
+        }}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 -2 20 3"
+          preserveAspectRatio="none"
+          style={{
+            display: "block",
+            width: "100%",
+            height: "80px",
+            background: "inherit",
+          }}
+        >
+          <path d="M 0 1 L 10 -2 L 20 1 Z" fill="#F7F7F7" />
+        </svg>
+      </div>
+      <img
+        style={{
+          position: "absolute",
+          left: 0,
+          bottom: 0,
+          width: "100%",
+          zIndex: 10,
+          pointerEvents: "none",
+        }}
+        src="../assets/images/casa-only.gif"
+        alt=""
+      />
     </section>
   );
 }

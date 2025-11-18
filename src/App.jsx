@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import "./styles/NavigationBar.css";
 import "./styles/Footer.css";
-import logoImage from "./assets/images/casa-logo.png";
+import logoImage from "./assets/images/casa-text.png";
 import HeaderTop from "./components/HeaderTop";
 import Footer from "./components/Footer";
 import "./index.css";
