@@ -1,17 +1,10 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Lato:wght@700;600;500&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter";
-  font-weight: 400;
-}
+@import url("https://fonts.googleapis.com/css?family=Roboto%20Slab:700|Inter%20Tight:400");
 
 body {
-  background-color: var(--background);
-  background-image: url("../src/assets/images/repeated-square-dark.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: "Inter Tight";
+  font-weight: 400;
+  background-image: url("../src/assets/images/pw_maze_black.png");
 }
 
 h1,
@@ -19,7 +12,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Lato";
+  font-family: "Roboto Slab";
+  font-weight: 700;
 }
 
 html {
@@ -28,27 +22,27 @@ html {
 
 h1 {
   font-size: 4.21rem; /* 67.36px */
-  font-weight: 700;
   color: var(--primary);
 }
 
 h2 {
   font-size: 3.158rem; /* 50.56px */
-  font-weight: 600;
   color: var(--primary);
 }
 
 h3 {
   font-size: 2.369rem; /* 37.92px */
-  font-weight: 500;
+  color: var(--primary);
 }
 
 h4 {
   font-size: 1.777rem; /* 28.48px */
+  color: var(--secondary);
 }
 
 h5 {
   font-size: 1.333rem; /* 21.28px */
+  color: var(--secondary);
 }
 
 small {
@@ -63,11 +57,11 @@ small {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --text: #1a1a1a;
-  --background: #ffffff;
-  --primary: #c9a227;
-  --secondary: #f5f5f5;
-  --accent: #d4c39a;
+  --text: #f5f5f5;
+  --background: #131212;
+  --primary: #d4af37;
+  --secondary: #00332e;
+  --accent: #cccccc;
 }
 
 /* Main Content */

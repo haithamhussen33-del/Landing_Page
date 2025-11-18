@@ -1,8 +1,8 @@
 .footer {
-  background: #ccba8f;
+  background: #1f1e1e;
   padding: 3rem 1.5rem 1rem;
   margin-top: 3rem;
-  border-top: 2px solid #333;
+  border-top: 2px solid var(--accent);
 }
 
 .footer-container {
@@ -25,7 +25,6 @@
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: 500;
-  color: #c8a27a;
 }
 
 .footer-text {
@@ -58,13 +57,13 @@
 }
 
 .social-icons a:hover svg {
-  color: #ffffff;
+  color: var(--accent);
   transform: scale(1.1);
 }
 
 .footer-bottom {
   text-align: center;
-  border-top: 1px solid var(--secondary);
+
   margin-top: 2rem;
   padding-top: 1rem;
   font-size: 0.9rem;

@@ -1,5 +1,5 @@
 .header-top {
-  background-color: #111;
+  background-color: var(--secondary);
   font-size: 0.9rem;
   padding: 8px 0;
 }
@@ -15,7 +15,6 @@
 
 .contact-info span,
 a {
-  color: var(--background);
   margin-right: 15px;
   opacity: 0.85;
   text-decoration: none;
@@ -23,7 +22,6 @@ a {
 }
 
 .top-links a {
-  color: var(--background);
   margin-left: 20px;
   text-decoration: none;
   transition: color 0.3s;
