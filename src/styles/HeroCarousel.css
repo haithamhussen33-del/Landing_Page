@@ -121,3 +121,16 @@
     bottom: 16px;
   }
 }
+/* وضع اللوغو في المنتصف تجارب*/
+.hero-carousel {
+  position: relative;
+}
+
+.hero-logo {
+  position: absolute;
+  left: 50%;
+  bottom: -29px;
+  transform: translateX(-50%);
+  width: 190px;
+  z-index: 20;
+}

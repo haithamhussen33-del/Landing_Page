@@ -5,6 +5,7 @@ import hero1 from "../assets/images/hero1.jpg";
 import hero2 from "../assets/images/hero2.jpg";
 import hero3 from "../assets/images/hero3.jpg";
 import "../index.css";
+import logohero from "../assets/images/logoNoBg.png";
 
 const images = [hero1, hero2, hero3];
 const talk = [
@@ -71,6 +72,8 @@ export default function HeroCarousel() {
           ></span>
         ))}
       </div>
+      <img src={logohero} alt="logo" className="hero-logo" />
+
       {/* SVG Shape Divider */}
       <div
         style={{
