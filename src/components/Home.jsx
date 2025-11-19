@@ -18,11 +18,6 @@ export default function Home() {
         <CardTest />
         <br />
         <br />
-        <section className="about">
-          <div className="about-content">
-            <h2>About Our Company</h2>
-          </div>
-        </section>
       </div>
     </ReactLenis>
   );

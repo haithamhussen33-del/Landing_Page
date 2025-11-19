@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="footer-container">
         {/* 1 — قسم المعلومات الأساسية */}
         <div className="footer-section company-info">
-          <h2 className="footer-title">CeramicExport</h2>
+          <h3 className="footer-title">CeramicExport</h3>
           <p className="footer-text">
             Premium Ceramic & Tile Export — Delivering quality materials to
             global markets with a focus on durability, elegance, and
@@ -25,7 +25,7 @@ export default function Footer() {
 
         {/* 2 — روابط التواصل */}
         <div className="footer-section contact-info">
-          <h3 className="footer-subtitle">Contact Information</h3>
+          <h4 className="footer-subtitle">Contact Information</h4>
 
           <p className="footer-item">
             <Mail className="footer-icon" />
@@ -45,7 +45,7 @@ export default function Footer() {
 
         {/* 3 — روابط وسائل التواصل */}
         <div className="footer-section social-info">
-          <h3 className="footer-subtitle">Follow Us</h3>
+          <h4 className="footer-subtitle">Follow Us</h4>
 
           <div className="social-icons">
             <a href="https://www.google.com/" target="_blank">
