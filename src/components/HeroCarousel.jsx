@@ -105,31 +105,6 @@ export default function HeroCarousel() {
         //////////////////////////////////////////////////////
       />
       {/* SVG Shape Divider */}
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          bottom: 0,
-          width: "100%",
-          zIndex: 10,
-          pointerEvents: "none",
-          background: "inherit",
-        }}
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 -2 20 3"
-          preserveAspectRatio="none"
-          style={{
-            display: "block",
-            width: "100%",
-            height: "80px",
-            background: "inherit",
-          }}
-        >
-          <path d="M 0 1 L 10 -2 L 20 1 Z" fill="#F7F7F7" />
-        </svg>
-      </div>
     </section>
   );
 }

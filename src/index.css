@@ -141,3 +141,9 @@ img {
   src: url(/public/Fonts/Inter-VariableFont_opsz\,wght.woff2) format("woff2");
   font-weight: 1 999;
 }
+@font-face {
+  font-family: Playfair;
+  src: url(/public/Fonts/Playfair_144pt_SemiCondensed-Medium.woff2)
+    format("woff2");
+  font-weight: 500;
+}

@@ -22,13 +22,13 @@ export default function VantaBackground() {
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          highlightColor: 0xe8b519,
-          midtoneColor: 0xebdede,
-          lowlightColor: 0xc9c4d7,
-          baseColor: 0xd4c8c8,
-          blurFactor: 0.63,
-          speed: 1.9,
-          zoom: 0.4,
+          highlightColor: 0xb69b3a,
+          midtoneColor: 0xccc099,
+          lowlightColor: 0xb3b3b3,
+          baseColor: 0xf7f7f7,
+          blurFactor: 0.7,
+          speed: 0.6,
+          zoom: 0.5,
         });
       }
     };

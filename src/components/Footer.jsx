@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section company-info">
-          <h3 className="footer-title">CeramicExport</h3>
+          <h3 className="footer-title">CASAPIU</h3>
           <p className="footer-text">
             Premium Ceramic & Tile Export — Delivering quality materials to
             global markets with a focus on durability, elegance, and
