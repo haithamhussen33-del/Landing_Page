@@ -13,7 +13,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* 1 — قسم المعلومات الأساسية */}
         <div className="footer-section company-info">
           <h3 className="footer-title">CeramicExport</h3>
           <p className="footer-text">
@@ -23,7 +22,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* 2 — روابط التواصل */}
         <div className="footer-section contact-info">
           <h4 className="footer-subtitle">Contact Information</h4>
 
@@ -43,7 +41,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* 3 — روابط وسائل التواصل */}
         <div className="footer-section social-info">
           <h4 className="footer-subtitle">Follow Us</h4>
 
@@ -61,7 +58,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* الخط السفلي */}
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Casapiugroup — All Rights Reserved.</p>
       </div>

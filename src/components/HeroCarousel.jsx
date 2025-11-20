@@ -76,9 +76,10 @@ export default function HeroCarousel() {
         src={logohero}
         alt="logo"
         className="hero-logo"
-        // initial={{ y: -60, opacity: 0, scale: 0.8 }} //هون الحركة بينزل من فوق بمقدار 60
-        // animate={{ y: 0, opacity: 1, scale: 1 }}
-        // transition={{ duration: 1.4, ease: "easeOut" }} // سرعة الحركة
+        //initial={{ y: -60, opacity: 0, scale: 0.8 }} //هون الحركة بينزل من فوق بمقدار 60
+        //  animate={{ y: 0, opacity: 1, scale: 1 }}
+        // transition={{ duration: 1.4, ease: "easeOut" }}
+        // viewport={{ once: true, amount: 0.8 }} // سرعة الحركة
         // transition={{ duration: 1.2, delay: 0.8 }}
         // *********بيكون صغير وبيكبر
         // initial={{ scale: 0.6, opacity: 0 }}
@@ -89,18 +90,19 @@ export default function HeroCarousel() {
         // animate={{ opacity: 1, y: 0 }}
         // transition={{ duration: 1.8, ease: [0.17, 0.55, 0.55, 1] }}
         // *******
-        // initial={{ y: -80, opacity: 0 }}
-        // animate={{ y: 0, opacity: 1 }}
-        // transition={{
-        //   type: "spring",
-        //   damping: 12,
-        //   stiffness: 120,
-        //   duration: 1.4,
-        // }}
+        initial={{ y: -80, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{
+          type: "spring",
+          damping: 12,
+          stiffness: 120,
+          duration: 1.4,
+        }}
         // *************
-        initial={{ scale: 1.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 1.4, ease: "easeOut" }}
+        // initial={{ scale: 1.8, opacity: 0 }}
+        // animate={{ scale: 1, opacity: 1 }}
+        //  transition={{ duration: 1.4, ease: "easeOut" }}
+        //////////////////////////////////////////////////////
       />
       {/* SVG Shape Divider */}
       <div

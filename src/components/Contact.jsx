@@ -1,5 +1,10 @@
 import { useState } from "react";
 import "../styles/ContactPageStyles.css";
+import LocationOnSharpIcon from "@mui/icons-material/LocationOnSharp";
+import EmailIcon from "@mui/icons-material/Email";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
+import HeadingsAnimation from "./HeadingsAnimation";
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -24,8 +29,12 @@ export default function Contact() {
   return (
     <div className="contact">
       <section className="contact-hero">
-        <h1>Get In Touch</h1>
-        <p>
+        <HeadingsAnimation
+          text="Get In Touch"
+          className="contact-hero-title"
+          type="mask"
+        />
+        <p className="contact-hero-subtitle">
           We'd love to hear from you. Send us a message and we'll respond as
           soon as possible.
         </p>
@@ -36,28 +45,42 @@ export default function Contact() {
           <h2>Contact Information</h2>
 
           <div className="info-item">
-            <div className="info-icon">📍</div>
+            <div className="info-icon">
+              <LocationOnSharpIcon
+                fontSize="large"
+                sx={{ color: "var(--icon)" }}
+              />
+            </div>
             <div>
               <h3>Address</h3>
             </div>
           </div>
 
           <div className="info-item">
-            <div className="info-icon">📧</div>
+            <div className="info-icon">
+              <EmailIcon fontSize="large" sx={{ color: "var(--icon)" }} />
+            </div>
             <div>
               <h3>Email</h3>
             </div>
           </div>
 
           <div className="info-item">
-            <div className="info-icon">📞</div>
+            <div className="info-icon">
+              <LocalPhoneIcon fontSize="large" sx={{ color: "var(--icon)" }} />
+            </div>
             <div>
               <h3>Phone</h3>
             </div>
           </div>
 
           <div className="info-item">
-            <div className="info-icon">🕒</div>
+            <div className="info-icon">
+              <AccessTimeFilledIcon
+                fontSize="large"
+                sx={{ color: "var(--icon)" }}
+              />
+            </div>
             <div>
               <h3>Business Hours</h3>
             </div>

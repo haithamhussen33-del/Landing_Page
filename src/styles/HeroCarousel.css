@@ -4,15 +4,7 @@
   height: 100vh;
   overflow: hidden;
 }
-/* .hero-logo {
-  position: absolute;
-  left: 50%;
-  bottom: -160px;
-  transform: translateX(-50%);
-  height: 80%;
-  width: 80%;
-  z-index: 20;
-} */
+
 .hero-carousel {
   position: relative;
 }
@@ -28,9 +20,9 @@
 }
 @media (max-width: 768px) {
   .hero-logo {
-    width: 220px; /* مناسب للموبايل */
-    bottom: -33px; /* تعديل موقعه للداخل فوق الشكل */
-    left: 24%; /* يبقى في المنتصف */
+    width: 300px; /* مناسب للموبايل */
+    bottom: -70px; /* تعديل موقعه للداخل فوق الشكل */
+    left: 15%; /* يبقى في المنتصف */
     transform: translateX(-50%);
   }
 }

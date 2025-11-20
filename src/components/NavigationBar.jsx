@@ -1,5 +1,5 @@
-import logoImage from "../assets/images/casa-text.png";
-import { Link } from "react-router-dom";
+import logoImage from "../assets/images/text-casa.png";
+import { NavLink } from "react-router-dom";
 import "../styles/NavigationBar.css";
 export default function NavigationBar() {
   return (
@@ -10,14 +10,25 @@ export default function NavigationBar() {
         </div>
         <ul className="nav-menu">
           <li>
-            <Link to={"/"}>
-              <a>Home</a>
-            </Link>
+            <NavLink
+              to={"/"}
+              end
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to={"/contact"}>
-              <a>Contact</a>
-            </Link>
+            <NavLink
+              to={"/contact"}
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>

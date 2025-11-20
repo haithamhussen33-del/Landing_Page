@@ -1,24 +1,31 @@
 .navbar {
   background-color: var(--background);
   max-height: 100vh;
-  max-height: 100vh;
   border-bottom: 2px solid var(--accent);
+  position: sticky; /* make navbar fixed on top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
+/* ensure nav content is centered and doesn't stretch full width */
 .nav-container {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1%;
+  max-width: 1200px;
 }
+
 .logo {
   margin-left: 5rem;
 }
 
 .logo-img {
-  height: 3rem;
-  width: 9rem;
+  height: 3.2rem;
+  width: auto;
 }
 
 .nav-menu {
@@ -26,22 +33,29 @@
   margin-left: auto;
   list-style: none;
   gap: 2rem;
+  align-items: center;
 }
 
-.nav-menu button a {
+/* new link styles for NavLink */
+.nav-link {
   background: none;
   border: none;
   font-size: 1.1rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   border-radius: 5px;
+  color: inherit;
+  text-decoration: none;
 }
-.nav-menu li a:active {
-  color: var(--primary);
-}
-.nav-menu li button:hover {
+
+.nav-link:hover {
   color: var(--accent);
+}
+
+.nav-link.active {
+  color: var(--primary);
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -55,7 +69,7 @@
     gap: 0.75rem;
     flex-wrap: wrap;
   }
-  .nav-menu button {
+  .nav-menu .nav-link {
     font-size: 0.95rem;
     padding: 0.4rem 0.75rem;
   }
