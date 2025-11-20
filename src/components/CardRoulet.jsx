@@ -40,7 +40,7 @@ export default function CardRoulet() {
       {cards.map((card, i) => (
         <motion.div
           key={card.front}
-          className="h-dvh py-10 sticky top-0"
+          className="card-wrapper"
           style={{
             scale: animate[i].scale,
             opacity: animate[i].opacity,

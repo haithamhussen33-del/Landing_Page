@@ -6,7 +6,7 @@ import hero2 from "../assets/images/hero2.jpg";
 import hero3 from "../assets/images/hero3.jpg";
 import "../index.css";
 import logohero from "../assets/images/logoNoBg.png";
-
+import { motion } from "motion/react";
 const images = [hero1, hero2, hero3];
 const talk = [
   {
@@ -72,8 +72,36 @@ export default function HeroCarousel() {
           ></span>
         ))}
       </div>
-      <img src={logohero} alt="logo" className="hero-logo" />
-
+      <motion.img
+        src={logohero}
+        alt="logo"
+        className="hero-logo"
+        // initial={{ y: -60, opacity: 0, scale: 0.8 }} //هون الحركة بينزل من فوق بمقدار 60
+        // animate={{ y: 0, opacity: 1, scale: 1 }}
+        // transition={{ duration: 1.4, ease: "easeOut" }} // سرعة الحركة
+        // transition={{ duration: 1.2, delay: 0.8 }}
+        // *********بيكون صغير وبيكبر
+        // initial={{ scale: 0.6, opacity: 0 }}
+        // animate={{ scale: 1, opacity: 1 }}
+        // transition={{ duration: 0.9, ease: "easeOut" }}
+        // ********* بينزل بسرعة مع ارتداد
+        // initial={{ opacity: 0, y: -20 }}
+        // animate={{ opacity: 1, y: 0 }}
+        // transition={{ duration: 1.8, ease: [0.17, 0.55, 0.55, 1] }}
+        // *******
+        // initial={{ y: -80, opacity: 0 }}
+        // animate={{ y: 0, opacity: 1 }}
+        // transition={{
+        //   type: "spring",
+        //   damping: 12,
+        //   stiffness: 120,
+        //   duration: 1.4,
+        // }}
+        // *************
+        initial={{ scale: 1.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1.4, ease: "easeOut" }}
+      />
       {/* SVG Shape Divider */}
       <div
         style={{

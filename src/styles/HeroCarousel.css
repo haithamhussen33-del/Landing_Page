@@ -4,15 +4,37 @@
   height: 100vh;
   overflow: hidden;
 }
-.hero-logo {
+/* .hero-logo {
   position: absolute;
   left: 50%;
-  bottom: -180px;
+  bottom: -160px;
   transform: translateX(-50%);
-  height: 500px;
-  width: 500px;
+  height: 80%;
+  width: 80%;
   z-index: 20;
+} */
+.hero-carousel {
+  position: relative;
 }
+
+.hero-logo {
+  position: absolute;
+  left: 35%;
+  bottom: -119px;
+  transform: translateX(-50%);
+  width: 400px;
+  z-index: 20;
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+  .hero-logo {
+    width: 220px; /* مناسب للموبايل */
+    bottom: -33px; /* تعديل موقعه للداخل فوق الشكل */
+    left: 24%; /* يبقى في المنتصف */
+    transform: translateX(-50%);
+  }
+}
+
 .hero-slide {
   position: absolute;
   top: 0;
