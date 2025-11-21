@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import "./index.css";
 import { Route, Routes } from "react-router-dom";
+import CeramicTypes from "./pages/CeramicTypes";
+import CeramicDetails from "./pages/CeramicDetails";
 export default function App() {
   return (
     <div className="app">
@@ -16,8 +18,11 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<CeramicTypes />} />
+          <Route path="/products/:id" element={<CeramicDetails />} />
         </Route>
       </Routes>
     </div>
   );
 }
+0;

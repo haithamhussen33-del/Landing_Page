@@ -22,12 +22,32 @@ export default function NavigationBar() {
           </li>
           <li>
             <NavLink
+              to={"/products"}
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Products
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to={"/contact"}
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"
               }
             >
               Contact
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to={"/About Us"}
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              About Us
             </NavLink>
           </li>
         </ul>

@@ -1,0 +1,59 @@
+.details-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.details-img-wrapper {
+  width: 100%;
+  height: 350px;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.details-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.details-title {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.details-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.details-back-btn {
+  background: #0d6efd;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.details-back-btn:hover {
+  background: #0952b3;
+}
+
+@media (max-width: 600px) {
+  .details-img-wrapper {
+    height: 260px;
+  }
+
+  .details-title {
+    font-size: 1.8rem;
+  }
+
+  .details-description {
+    font-size: 1rem;
+  }
+}
