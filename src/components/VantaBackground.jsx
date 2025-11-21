@@ -48,7 +48,7 @@ export default function VantaBackground() {
         left: 0,
         width: "100%",
         height: "100%",
-        zIndex: -1, // خلف كل العناصر
+        zIndex: -1,
       }}
     />
   );

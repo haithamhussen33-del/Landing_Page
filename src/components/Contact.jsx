@@ -5,6 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import HeadingsAnimation from "./HeadingsAnimation";
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -39,7 +40,6 @@ export default function Contact() {
           soon as possible.
         </p>
       </section>
-
       <div className="contact-container">
         <div className="contact-info">
           <h2>Contact Information</h2>

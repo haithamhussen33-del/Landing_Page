@@ -17,8 +17,8 @@ h5 {
 }
 
 html {
-  font-size: 90%;
-} /* 16px */
+  font-size: 85%;
+}
 
 h1 {
   font-size: 4.21rem; /* 67.36px */
@@ -54,7 +54,7 @@ small {
   font-size: 0.75rem; /* 12px */
 }
 :root {
-  line-height: 1.6;
+  line-height: 1.2;
 
   color: var(--text);
   background-color: var(--background);

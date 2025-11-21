@@ -1,5 +1,5 @@
 import React from "react";
-import CeramicCard from "../components/CeramicCard"; // ✅ مهم جداً
+import CeramicCard from "../components/CeramicCard";
 import "../styles/ceramics.css";
 
 import ceramic1 from "../assets/ceramics/ceramic1.jpg";

@@ -12,30 +12,27 @@ export default function CeramicDetails() {
   const products = [
     {
       id: "1",
-      name: "سيراميك أرضيات",
+      name: "Marble",
       img: ceramic1,
-      description:
-        "سيراميك عالي الجودة مناسب للاستخدام المنزلي والتجاري. يتميز بمقاومته للخدش وسهولة التنظيف.",
+      description: "Description",
     },
     {
       id: "2",
-      name: "سيراميك حوائط",
+      name: " Granite",
       img: ceramic2,
-      description:
-        "مناسب للحمامات والمطابخ والحوائط الداخلية. بألوان هادئة وتصاميم فاخرة.",
+      description: "Description",
     },
     {
       id: "3",
-      name: "سيراميك خارجي",
+      nname: "Ceramic",
       img: ceramic3,
-      description:
-        "مقاوم للعوامل الجوية، مثالي للشرفات والحدائق ومداخل المنازل.",
+      description: "Description",
     },
   ];
 
   const product = products.find((p) => p.id === id);
 
-  if (!product) return <h2>المنتج غير موجود</h2>;
+  if (!product) return <h2>No Such Product</h2>;
 
   return (
     <div className="details-page">
