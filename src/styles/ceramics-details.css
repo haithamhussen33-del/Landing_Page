@@ -1,28 +1,9 @@
 .details-page{
-  display: grid;
-  justify-content: space-evenly;
-  /* border: 2px solid black; removed debug border */
-}
-.details-img-wrapper{
-  width: 40%;
-   /* border: 2px solid red; removed debug border */
+  display: flex;
+  justify-content:space-around;
 }
 
-.details-info{
-  margin:20px 0 ;
-  /* border: 2px solid blue; removed debug border */
-}
-.features-list{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style-type: circle;
-}
 
-.details-heading{
-  display: flex;
-  justify-content: center;
-}
 @media (max-width: 600px) {
   .details-img-wrapper {
     height: 260px;

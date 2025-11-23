@@ -2,17 +2,20 @@ import React, { useState, useEffect, useRef } from "react";
 import "../styles/services1.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Card from "./Card";
-import heroImage from "../assets/images/hero2.jpg";
+import materialsImg from "../assets/images/services/materials-supply.png";
+import sanitaryImg from "../assets/images/services/sanitary-ware.png";
+import samplesImg from "../assets/images/services/custom-samples.png";
+import logisticsImg from "../assets/images/services/logistics.png";
 
 export default function CardRoulet() {
   const cards = [
     { 
-      leftCard: { heading: "Supply of Ceramics, Porcelain, Marble & Granite", imgback: heroImage,description: "We supply a complete range of ceramics, porcelain, marble, and granite in various sizes and finishes — suitable for residential, commercial, and large-scale projects." },
-      rightCard: { heading: "Supply of Sanitary Ware & Washbasins", imgback: heroImage,description: "High-quality sanitary ware including toilets, washbasins, bathtubs, mixers, and accessories — designed for durability and modern aesthetics." }
+      leftCard: { heading: "Supply of Ceramics, Porcelain, Marble & Granite", imgback: materialsImg, description: "We supply a complete range of ceramics, porcelain, marble, and granite in various sizes and finishes — suitable for residential, commercial, and large-scale projects." },
+      rightCard: { heading: "Supply of Sanitary Ware & Washbasins", imgback: sanitaryImg, description: "High-quality sanitary ware including toilets, washbasins, bathtubs, mixers, and accessories — designed for durability and modern aesthetics." }
     },
     { 
-      leftCard: { heading: "Samples & Custom Sizes", imgback: heroImage,description: "We provide product samples and custom-size options tailored to meet the exact specifications of your project." },
-      rightCard: { heading: "Shipping & Delivery Coordination", imgback: heroImage,description: "Complete logistics support including shipping arrangements, documentation, customs coordination, and on-time project delivery." }
+      leftCard: { heading: "Samples & Custom Sizes", imgback: samplesImg, description: "We provide product samples and custom-size options tailored to meet the exact specifications of your project." },
+      rightCard: { heading: "Shipping & Delivery Coordination", imgback: logisticsImg, description: "Complete logistics support including shipping arrangements, documentation, customs coordination, and on-time project delivery." }
     },
    
   ];

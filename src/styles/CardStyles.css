@@ -6,7 +6,7 @@
     justify-content: center;
     gap: 2rem;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 0.6rem;
 }
 .left-card-container {
   display: flex;
@@ -14,10 +14,10 @@
   align-items: center;
   background-color: var(--background-surface);
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   min-height: 72vh;
   height: auto;
-  margin: 0 auto;
+  margin: 0 0.7rem;
   padding: 1.5rem; 
   gap: 2rem;
   border-radius: 1rem;
@@ -37,10 +37,10 @@
   align-items: center;
   background-color: var(--background-surface);
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   min-height: 72vh;
   height: auto;
-  margin: 0 auto;
+  margin: 0 0.7rem;
   padding: 1.5rem; 
   gap: 2rem;
   border-radius: 1rem;

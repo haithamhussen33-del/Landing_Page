@@ -1,0 +1,76 @@
+{
+  "category": "Marble",
+  "types": [
+    {
+      "id": "calacatta",
+      "name": "Calacatta",
+      "description": "Luxurious white marble with bold, dramatic veining. Commonly used in high-end interiors and feature walls.",
+      "images": [
+        "/images/marble/calacatta1.jpg",
+        "/images/marble/calacatta2.jpg"
+      ],
+      "finish": "Polished / Honed",
+      "sizes": ["60x60", "120x60", "Slab"]
+    },
+    {
+      "id": "statuario",
+      "name": "Statuario",
+      "description": "Bright white marble with thick, elegant grey veins. Known for its premium look and luxurious appeal.",
+      "images": [
+        "/images/marble/statuario1.jpg"
+      ],
+      "finish": "Polished / Honed",
+      "sizes": ["60x60", "120x60", "Slab"]
+    },
+    {
+      "id": "volakas",
+      "name": "Volakas",
+      "description": "Greek marble with soft linear grey veins. Popular for floors, walls, and modern interior designs.",
+      "images": [
+        "/images/marble/volakas1.jpg"
+      ],
+      "finish": "Polished",
+      "sizes": ["60x60", "120x60"]
+    },
+    {
+      "id": "carrara",
+      "name": "Carrara",
+      "description": "Classic Italian marble with subtle, fine grey veining. A timeless option for both residential and commercial spaces.",
+      "images": [
+        "/images/marble/carrara1.jpg"
+      ],
+      "finish": "Polished / Honed",
+      "sizes": ["60x60", "120x60", "Slab"]
+    },
+    {
+      "id": "emperador",
+      "name": "Emperador",
+      "description": "Rich brown marble with white and light brown veining. Ideal for luxury floor and wall applications.",
+      "images": [
+        "/images/marble/emperador1.jpg"
+      ],
+      "finish": "Polished",
+      "sizes": ["60x60", "120x60"]
+    },
+    {
+      "id": "travertine",
+      "name": "Travertine",
+      "description": "Natural warm-toned stone with unique textures and patterns. Often used in bathrooms, outdoor areas, and rustic designs.",
+      "images": [
+        "/images/marble/travertine1.jpg"
+      ],
+      "finish": "Honed / Filled / Unfilled",
+      "sizes": ["30x60", "60x60", "Slab"]
+    },
+    {
+      "id": "onyx",
+      "name": "Onyx",
+      "description": "Semi-precious translucent stone known for its dramatic colors and veining. Perfect for backlit walls and luxury interiors.",
+      "images": [
+        "/images/marble/onyx1.jpg"
+      ],
+      "finish": "Polished",
+      "sizes": ["Slab"]
+    }
+  ]
+}

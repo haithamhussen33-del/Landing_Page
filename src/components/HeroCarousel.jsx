@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../styles/HeroCarousel.css";
-import hero1 from "../assets/images/hero1.jpg";
-import hero2 from "../assets/images/hero2.jpg";
-import hero3 from "../assets/images/hero3.jpg";
+import hero1 from "../assets/images/hero/hero-luxury.png";
+import hero2 from "../assets/images/hero/hero-bathroom.png";
+import hero3 from "../assets/images/services/logistics.png"; // Reusing the premium logistics image
 import "../index.css";
 
 const images = [hero1, hero2, hero3];
@@ -12,12 +12,12 @@ const talk = [
     subtitle: "Premium Ceramic Exports — Crafting Excellence for Modern Spaces",
   },
   {
-    title: "Discover ME",
-    subtitle: "Premium MOMO",
+    title: "Sanctuary of Style",
+    subtitle: "Luxury Sanitary Ware Designed for Modern Living",
   },
   {
-    title: "Discover123123123",
-    subtitle: "Premium M12323123",
+    title: "Global Reach, Local Care",
+    subtitle: "Seamless Export Logistics for Projects Worldwide",
   },
 ];
 export default function HeroCarousel() {

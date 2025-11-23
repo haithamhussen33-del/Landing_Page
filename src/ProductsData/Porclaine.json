@@ -1,0 +1,45 @@
+{
+  "category": "Porcelain",
+  "types": [
+    {
+      "id": "porcelain-matte",
+      "name": "Matte Porcelain",
+      "description": "Durable matte-finish porcelain tiles suitable for modern interiors, offering slip resistance and a soft natural look.",
+      "images": [
+        "/images/porcelain/matte1.jpg"
+      ],
+      "finish": "Matte",
+      "sizes": ["60x60", "120x60", "80x80"]
+    },
+    {
+      "id": "porcelain-polished",
+      "name": "Polished Porcelain",
+      "description": "High-gloss porcelain tiles with a mirror-like surface, ideal for luxury residential and commercial interiors.",
+      "images": [
+        "/images/porcelain/polished1.jpg"
+      ],
+      "finish": "Polished",
+      "sizes": ["60x60", "120x60", "100x100"]
+    },
+    {
+      "id": "porcelain-outdoor",
+      "name": "Outdoor Porcelain",
+      "description": "Thick anti-slip outdoor porcelain designed for terraces, gardens, pathways, and high-traffic areas.",
+      "images": [
+        "/images/porcelain/outdoor1.jpg"
+      ],
+      "finish": "Textured / Anti-Slip",
+      "sizes": ["60x60", "60x120", "20mm Outdoor Tiles"]
+    },
+    {
+      "id": "porcelain-wood",
+      "name": "Wood-Look Porcelain",
+      "description": "Porcelain tiles designed to mimic natural wood while offering water resistance and long-lasting durability.",
+      "images": [
+        "/images/porcelain/wood1.jpg"
+      ],
+      "finish": "Matte / Textured",
+      "sizes": ["15x60", "20x120"]
+    }
+  ]
+}
