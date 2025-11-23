@@ -18,18 +18,18 @@
   min-height: 72vh;
   height: auto;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem; 
   gap: 2rem;
   border-radius: 1rem;
-  overflow: visible; /* Allow image to extend beyond */
+  overflow: visible; 
   border: 1px solid rgba(237, 217, 153, 0.2);
   box-shadow: 
     0 4px 20px rgba(0, 0, 0, 0.4),
     inset 0 1px 0 rgba(237, 217, 153, 0.1);
   
-  /* Smooth Transitions */
+
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative; /* For absolute positioning of image */
+  position: relative; 
 }
 .right-card-container {
   display: flex;
@@ -41,21 +41,20 @@
   min-height: 72vh;
   height: auto;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem; 
   gap: 2rem;
   border-radius: 1rem;
-  overflow: visible; /* Allow image to extend beyond */
+  overflow: visible; 
   border: 1px solid rgba(237, 217, 153, 0.2);
   box-shadow: 
     0 4px 20px rgba(0, 0, 0, 0.4),
     inset 0 1px 0 rgba(237, 217, 153, 0.1);
   
-  /* Smooth Transitions */
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative; /* For absolute positioning of image */
+  position: relative; 
 }
 
-/* Premium Hover Effect */
+
 .left-card-container:hover {
   transform: translateY(-8px);
 }
@@ -63,7 +62,7 @@
   transform: translateY(-8px);
 }
 
-/* ====== TEXT SECTION ====== */
+
 
 .left-card-content {
   flex: 1;
@@ -71,8 +70,8 @@
   flex-direction: column;
   gap: 1.5rem;
   padding: 1rem;
-  padding-right: 0; /* No padding on right since image is absolutely positioned */
-  margin-right: 35%; /* Make room for the image */
+  padding-right: 0;
+  margin-right: 42%; 
   z-index: 1;
 }
 
@@ -83,12 +82,12 @@
   flex-direction: column;
   gap: 1.5rem;
   padding: 1rem;
-  padding-left: 0; /* No padding on left since image is absolutely positioned */
-  margin-left: 35%; /* Make room for the image */
+  padding-left: 0; 
+  margin-left: 42%; 
   z-index: 1;
 }
 
-/* Premium Heading with Gold Accent */
+
 .left-card-content h2 {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -104,7 +103,7 @@
   padding-top: 1rem;
 }
 
-/* Decorative Gold Line Above Heading */
+
 .left-card-content h2::before {
   content: '';
   position: absolute;
@@ -144,38 +143,28 @@
 /* ====== IMAGE SECTION ====== */
 
 .left-card-img-container {
-  width: 33%;
-  height: 120%; /* Taller than card to extend beyond top */
+  width: 40%; 
+  height: 120%; 
   position: absolute;
-  right: 0; /* Flush with right edge of left card */
-  top: -10%; /* Extends 10% above the card */
+  right: 0; 
+  top: -10%; 
   overflow: hidden;
-  
-  /* Clean rounded corners on free edges */
   border-radius: 12px 12px 12px 0;
-  
- 
- 
   border-right: none; 
-  
-
   box-shadow: 
     -4px 0 16px rgba(0, 0, 0, 0.2),
     0 8px 24px rgba(0, 0, 0, 0.3);
-  
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 2;
 }
 
 .right-card-img-container {
-  width: 33%;
-  height: 120%; /* Taller than card to extend beyond top */
+  width: 40%; 
+  height: 120%; 
   position: absolute;
-  left: 0; /* Flush with left edge of right card */
-  top: -10%; /* Extends 10% above the card */
+  left: 0; 
+  top: -10%; 
   overflow: hidden;
-  
-  /* Clean rounded corners on free edges */
   border-radius: 12px 12px 0 12px;
   
  
@@ -209,7 +198,6 @@
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Simple Image Zoom on Hover */
 .left-card-container:hover .left-card-img {
   transform: scale(1.05);
 }
@@ -320,7 +308,7 @@
     font-size: 0.95rem;
   }
 
-  /* Reduce hover effects on mobile */
+
   .left-card-container:hover {
     transform: translateY(-4px);
   }
