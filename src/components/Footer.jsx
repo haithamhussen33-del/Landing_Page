@@ -27,7 +27,7 @@ export default function Footer() {
 
           <p className="footer-item">
             <Mail className="footer-icon" />
-            contact@ceramicexport.com
+            info@Casapiugroup.com
           </p>
 
           <p className="footer-item">

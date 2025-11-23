@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import CeramicTypes from "../pages/CeramicTypes";
+
 import CeramicDetails from "../pages/CeramicDetails";
 import Layout from "./Layout";
 import Home from "./Home";
@@ -62,14 +62,6 @@ export default function AnimatedRoutes() {
             element={
               <AnimatedPage>
                 <Contact />
-              </AnimatedPage>
-            }
-          />
-          <Route
-            path="/products"
-            element={
-              <AnimatedPage>
-                <CeramicTypes />
               </AnimatedPage>
             }
           />

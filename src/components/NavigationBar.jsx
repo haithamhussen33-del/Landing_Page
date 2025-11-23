@@ -88,17 +88,6 @@ export default function NavigationBar() {
             >
               <li>
                 <NavLink
-                  to={"/products"}
-                  className={({ isActive }) =>
-                    isActive ? "dropdown-link active" : "dropdown-link"
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  All
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
                   to={"/products/1"}
                   className={({ isActive }) =>
                     isActive ? "dropdown-link active" : "dropdown-link"
@@ -116,7 +105,7 @@ export default function NavigationBar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Tiles
+                  Granit
                 </NavLink>
               </li>
               <li>
@@ -127,18 +116,18 @@ export default function NavigationBar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Accessories
+                  Marble
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to={"/products/custom"}
+                  to={"/products/4"}
                   className={({ isActive }) =>
                     isActive ? "dropdown-link active" : "dropdown-link"
                   }
                   onClick={closeMobileMenu}
                 >
-                  Custom Orders
+                  Porcelain
                 </NavLink>
               </li>
             </ul>

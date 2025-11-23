@@ -77,8 +77,9 @@
 }
 
 .hero-btn {
-  background-color: #c19b76;
-  color: white;
+  background: var(--primary-gradient);
+  color: var(--background);
+  font-weight: 600;
   border: none;
   padding: 0.8rem 2rem;
   font-size: 1rem;
@@ -87,7 +88,7 @@
 }
 
 .hero-btn:hover {
-  background-color: #a67a50;
+  filter: brightness(1.1);
 }
 
 /* أزرار التنقل */

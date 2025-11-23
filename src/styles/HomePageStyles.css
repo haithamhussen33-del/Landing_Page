@@ -69,7 +69,7 @@
 }
 
 .stat p {
-  color: #7f8c8d;
+  color: var(--text-body);
   font-size: 1.1rem;
 }
 

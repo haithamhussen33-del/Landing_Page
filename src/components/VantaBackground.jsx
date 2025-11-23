@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
+import { createPortal } from "react-dom";
 
 export default function VantaBackground() {
   const vantaRef = useRef(null);
   const vantaEffect = useRef(null);
 
   useEffect(() => {
-    // تحميل سكريبت Vanta Fog من public
     const script = document.createElement("script");
-    script.src = "/vanta.fog.min.js"; // موجود في public
+    script.src = "/vanta.fog.min.js"; 
     script.async = true;
     document.body.appendChild(script);
 
@@ -16,30 +16,30 @@ export default function VantaBackground() {
       if (window.VANTA && !vantaEffect.current) {
         vantaEffect.current = window.VANTA.FOG({
           el: vantaRef.current,
-          THREE: THREE, // نمرر Three من npm
+          THREE: THREE, 
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
-          highlightColor: 0xb69b3a,
-          midtoneColor: 0xccc099,
-          lowlightColor: 0xb3b3b3,
-          baseColor: 0xf7f7f7,
-          blurFactor: 0.7,
-          speed: 0.6,
-          zoom: 0.5,
+        highlightColor: 0x000000,
+  midtoneColor: 0xa78d36,
+  lowlightColor: 0x000000,
+  baseColor: 0x000000,
+  blurFactor: 0.57,
+  speed: 0.60,
+  zoom: 0.30
         });
       }
     };
 
     return () => {
       if (vantaEffect.current) vantaEffect.current.destroy();
-      document.body.removeChild(script); // تنظيف السكريبت
+      document.body.removeChild(script);
     };
   }, []);
 
-  return (
+  return createPortal(
     <div
       ref={vantaRef}
       style={{
@@ -49,7 +49,9 @@ export default function VantaBackground() {
         width: "100%",
         height: "100%",
         zIndex: -1,
+        pointerEvents: "none", 
       }}
-    />
+    />,
+    document.body
   );
 }

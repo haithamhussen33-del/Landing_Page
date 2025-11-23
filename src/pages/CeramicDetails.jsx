@@ -36,20 +36,34 @@ export default function CeramicDetails() {
 
   return (
     <div className="details-page">
-      <div className="details-img-wrapper">
+      <div className="details-heading"><h2>{product.name}</h2></div>
+      <div className="features-section">
+
+  <div className="details-img-wrapper">
         <img src={product.img} alt={product.name} className="details-img" />
       </div>
+  <div className="details-info">
+    <ul className="features-list">
+      <legend>
+          <h4>Features</h4>
+      </legend>
+      <li>Marble-effect large format tiles
+</li>
+<li>High-gloss & soft-matt finishes
+</li>
+<li>Available in a range of sizes and finishes
+</li>
+<li>Easy to clean and maintain
+</li>
+<li>Available in a range of sizes and finishes
+</li>
+    </ul>
+  </div>
+      </div>
+    
+    
 
-      <h1 className="details-title">{product.name}</h1>
-
-      <p className="details-description">{product.description}</p>
-
-      <button
-        onClick={() => window.history.back()}
-        className="details-back-btn"
-      >
-        العودة
-      </button>
+      
     </div>
   );
 }

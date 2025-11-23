@@ -1,20 +1,32 @@
 import "../styles/CardStyles.css";
 
-export default function Card({ heading, imgBackground }) {
+export default function Card({ leftCard, rightCard }) {
   return (
-    <div className="card-container">
-      <div className="card-content">
-        <h2>{heading}</h2>
+    <div className="tow-card-container">
+      <div className="left-card-container">
+      <div className="left-card-content">
+        <h2>{leftCard.heading}</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odit
-          saepe accusamus, deserunt reiciendis explicabo nam quod quas
-          voluptatibus unde. Alias, sapiente tempora. Maxime possimus sed
-          corporis, earum cumque dolorem!
+        {leftCard.description}
         </p>
       </div>
-      <div className="card-img-container">
-        <img className="card-img" src={imgBackground} alt="" />
+      <div className="left-card-img-container">
+        <img className="left-card-img" src={leftCard.imgback} alt="" />
       </div>
     </div>
+    <div className="right-card-container">
+      <div className="right-card-content">
+        <h2>{rightCard.heading}</h2>
+        <p>
+        {rightCard.description}
+        </p>
+      </div>
+      <div className="right-card-img-container">
+        <img className="right-card-img" src={rightCard.imgback} alt="" />
+      </div>
+    </div>
+
+    </div>
+   
   );
 }
