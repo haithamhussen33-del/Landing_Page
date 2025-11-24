@@ -75,7 +75,7 @@ export default function NavigationBar() {
             >
               <li>
                 <NavLink
-                  to="/products/Ceramics"
+                  to="/products/ceramics"
                   className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
@@ -84,7 +84,7 @@ export default function NavigationBar() {
               </li>
               <li>
                 <NavLink
-                  to="/products/Granite"
+                  to="/products/granite"
                   className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
@@ -93,7 +93,7 @@ export default function NavigationBar() {
               </li>
               <li>
                 <NavLink
-                  to="/products/Marble"
+                  to="/products/marble"
                   className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
@@ -102,7 +102,7 @@ export default function NavigationBar() {
               </li>
               <li>
                 <NavLink
-                  to="/products/Porcelain"
+                  to="/products/porcelain"
                   className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
