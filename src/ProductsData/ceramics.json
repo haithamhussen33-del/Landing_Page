@@ -10,7 +10,9 @@
         "/images/services/ceramics/white-ceramic2.jpg"
       ],
       "finish": "Glossy",
-      "sizes": ["30x30", "60x60"]
+      "sizes": ["30x30", "60x60"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "grey-ceramic-tile",
@@ -18,7 +20,9 @@
       "description": "Modern grey ceramic tile with subtle texture.",
       "images": ["/images/services/ceramics/grey-ceramic1.jpg"],
       "finish": "Matte",
-      "sizes": ["30x30", "60x60"]
+      "sizes": ["30x30", "60x60"],
+      "applications": "222",
+      "whatcasapiuprovides":"77"
     }
   ]
 }

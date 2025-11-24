@@ -10,8 +10,8 @@ export default function HeaderTop() {
       <div className="header-top-container">
         <div className="contact-info">
           <span>
-            <a href="mailto:info@ceramicexport.com">
-              <EmailSharpIcon fontSize="small" /> info@ceramicexport.com
+            <a href="mailto:info@casapiugroup.com">
+              <EmailSharpIcon fontSize="small" /> info@casapiugroup.com
             </a>
           </span>
           <span>
@@ -21,9 +21,8 @@ export default function HeaderTop() {
           </span>
         </div>
         <div className="top-links">
-          <a href="https://maps.app.goo.gl/9Sk1Cr7teumxpLnAA" target="_blank">
-            <MyLocationSharpIcon fontSize="small" /> Theo Uden Masmanstraat 52,
-            3813 ZE Amersfoort
+          <a href="https://maps.app.goo.gl/urFcTHFrgSBQYedx7" target="_blank">
+            <MyLocationSharpIcon fontSize="small" /> UAE DUBAI ALGOZE FIRST -ADEL MOH ALMARZOUQI-OFFICE 33
           </a>
         </div>
       </div>

@@ -9,7 +9,9 @@
         "/images/granite/black-galaxy1.jpg"
       ],
       "finish": "Polished",
-      "sizes": ["Slab", "60x60"]
+      "sizes": ["Slab", "60x60"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "tan-brown",
@@ -19,7 +21,9 @@
         "/images/granite/tan-brown1.jpg"
       ],
       "finish": "Polished",
-      "sizes": ["Slab", "60x60"]
+      "sizes": ["Slab", "60x60"],
+      "applications": "222",
+      "what casapiu provides":"77"
     },
     {
       "id": "absolute-black",
@@ -29,7 +33,9 @@
         "/images/granite/absolute-black1.jpg"
       ],
       "finish": "Polished / Honed",
-      "sizes": ["Slab"]
+      "sizes": ["Slab"],
+      "applications": "333",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "steel-grey",
@@ -39,7 +45,9 @@
         "/images/granite/steel-grey1.jpg"
       ],
       "finish": "Polished / Leathered",
-      "sizes": ["Slab", "60x60"]
+      "sizes": ["Slab", "60x60"],
+      "applications": "444",
+      "whatcasapiuprovides":"77"
     }
   ]
 }

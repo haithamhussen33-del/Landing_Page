@@ -37,7 +37,9 @@ export default function Footer() {
 
           <p className="footer-item">
             <MapPin className="footer-icon" />
-            Theo Uden Masmanstraat 52, 3813 ZE Amersfoort
+            <a href="https://maps.app.goo.gl/urFcTHFrgSBQYedx7" target="_blank">
+              UAE DUBAI ALGOZE FIRST -ADEL MOH ALMARZOUQI-OFFICE 33
+            </a>
           </p>
         </div>
 

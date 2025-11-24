@@ -71,7 +71,7 @@ export default function CardRoulet() {
 
   return (
     <motion.div className="services-flip1" ref={ref}>
-      <h2>Flip Cards</h2>
+      <h2 className="!text-(--primary)">Our <span className="!text-(--primary-gradient)">Services</span></h2>
 
       {cards.map((card, i) => (
         <motion.div

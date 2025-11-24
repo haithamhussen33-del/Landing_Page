@@ -1,20 +1,98 @@
-.product-card{
- height: 20rem;
- width: 20rem;
- border-radius: 1rem;
- box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
- overflow: hidden;
+/* ====== PRODUCT CARD ====== */
+.product-card {
+  position: relative;
+  width: 100%;
+  max-width: 20rem;
+  height: 24rem;
+  background-color: var(--background-surface);
+  border-radius: 0.3rem;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
 }
-.product-card img{
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-    object-fit: cover;
+
+.product-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(184, 156, 58, 0.4);
+  box-shadow: 
+    0 12px 30px rgba(0, 0, 0, 0.5),
+    0 0 15px rgba(184, 156, 58, 0.1);
 }
-.product-card-content{
-    height: 10rem;
-    width: 20rem;
-    box-sizing: border-box;
-    position: absolute;
- 
+
+/* Image Section */
+.product-card-img-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-card-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card:hover .product-card-img-container img {
+  transform: scale(1.08);
+}
+
+/* Overlay & Content */
+.product-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover .product-card-overlay {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  padding-bottom: 2rem;
+}
+
+.product-card-overlay h3 {
+  font-family: "Playfair", serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #ffffff; /* White text as requested */
+  margin: 0;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-card-overlay h3 {
+  transform: translateY(-5px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .product-card {
+    height: 20rem;
+    max-width: 100%;
+  }
+  
+  .product-card-overlay h3 {
+    font-size: 1.5rem;
+  }
 }

@@ -1,4 +1,4 @@
-import logoImage from "../assets/images/text-casa.png";
+import logoImage from "../assets/images/casa-logo.png";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "../styles/NavigationBar.css";
@@ -107,6 +107,15 @@ export default function NavigationBar() {
                   onClick={closeMobileMenu}
                 >
                   Porcelain
+                </NavLink>
+              </li>
+               <li>
+                <NavLink
+                  to="/products/santryware"
+                  className="dropdown-link"
+                  onClick={closeMobileMenu}
+                >
+                  SantryWare
                 </NavLink>
               </li>
             </ul>

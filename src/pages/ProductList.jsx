@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
-
+import "../styles/ProductListStyles.css";
 // دالة لتحميل بيانات JSON حسب الفئة
 const loadCategoryData = async (category) => {
   try {
@@ -45,18 +45,18 @@ export default function ProductList() {
   if (!categoryData) return <p>No Such Category</p>;
 
   return (
-    <div className="product-list-container" style={{ padding: "2rem" }}>
-      <h1 style={{ textAlign: "center", marginBottom: "2rem" }}>
+
+    
+    <div className="product-list-container" >
+      <div className="product-list-hero">
+        <img src="" alt="" />
+          <h2 >
         {categoryData.category}
-      </h1>
+      </h2>
+      </div>
 
       <div
         className="product-grid"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-          gap: "1.5rem",
-        }}
       >
         {products.map((product) => (
           <ProductCard

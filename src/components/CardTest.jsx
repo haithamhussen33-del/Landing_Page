@@ -8,7 +8,8 @@ export default function CardTest() {
       <TextParallaxContent
         imgUrl={hero1}
         subheading=""
-        heading="About Our Company"
+        heading="Why Choose Us"
+    
       >
         <ExampleContent />
       </TextParallaxContent>
@@ -26,7 +27,7 @@ const TextParallaxContent = ({ imgUrl, subheading, heading, children }) => {
         paddingRight: IMG_PADDING,
       }}
     >
-      <div className="relative h-[150vh]">
+      <div className="relative h-[150vh] ">
         <StickyImage imgUrl={imgUrl} />
         <OverlayCopy heading={heading} subheading={subheading} />
       </div>
@@ -90,7 +91,7 @@ const OverlayCopy = ({ subheading, heading }) => {
       <p className="mb-2 text-center text-xl md:mb-4 md:text-3xl">
         {subheading}
       </p>
-      <p className="text-center text-4xl font-bold md:text-7xl text-(--primary-gradient)">
+      <p className="text-center text-4xl font-bold md:text-7xl !text-(--primary)">
         {heading}
       </p>
     </motion.div>
@@ -99,19 +100,15 @@ const OverlayCopy = ({ subheading, heading }) => {
 
 const ExampleContent = () => (
   <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
-    <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
-      Additional content explaining the above card here
+    <h2 className="col-span-1 text-3xl font-bold md:col-span-4 !text-(--primary)">
+    Your Trusted Partner for Every Construction Vision
     </h2>
     <div className="col-span-1 md:col-span-8">
-      <p className="mb-4 text-xl t md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-        blanditiis soluta eius quam modi aliquam quaerat odit deleniti minima
-        maiores voluptate est ut saepe accusantium maxime doloremque nulla
-        consectetur possimus.
+      <p className="mb-4 text-xl  md:text-2xl">
+       From top-grade materials and direct factory relationships to great prices and quick delivery, we make every step simple and stress-free.
       </p>
       <p className="mb-8 text-xl  md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        reiciendis blanditiis aliquam aut fugit sint.
+       Our wide selection ensures you always find the right match for your project.
       </p>
     </div>
   </div>

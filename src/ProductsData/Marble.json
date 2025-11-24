@@ -10,7 +10,9 @@
         "/images/marble/calacatta2.jpg"
       ],
       "finish": "Polished / Honed",
-      "sizes": ["60x60", "120x60", "Slab"]
+      "sizes": ["60x60", "120x60", "Slab"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "statuario",
@@ -20,7 +22,9 @@
         "/images/marble/statuario1.jpg"
       ],
       "finish": "Polished / Honed",
-      "sizes": ["60x60", "120x60", "Slab"]
+      "sizes": ["60x60", "120x60", "Slab"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "volakas",
@@ -30,7 +34,9 @@
         "/images/marble/volakas1.jpg"
       ],
       "finish": "Polished",
-      "sizes": ["60x60", "120x60"]
+      "sizes": ["60x60", "120x60"],
+      "applications": "111",
+      "whatcasapiuprovidess":"77"
     },
     {
       "id": "carrara",
@@ -40,7 +46,9 @@
         "/images/marble/carrara1.jpg"
       ],
       "finish": "Polished / Honed",
-      "sizes": ["60x60", "120x60", "Slab"]
+      "sizes": ["60x60", "120x60", "Slab"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "emperador",
@@ -50,7 +58,9 @@
         "/images/marble/emperador1.jpg"
       ],
       "finish": "Polished",
-      "sizes": ["60x60", "120x60"]
+      "sizes": ["60x60", "120x60"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "travertine",
@@ -60,7 +70,9 @@
         "/images/marble/travertine1.jpg"
       ],
       "finish": "Honed / Filled / Unfilled",
-      "sizes": ["30x60", "60x60", "Slab"]
+      "sizes": ["30x60", "60x60", "Slab"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "onyx",
@@ -70,7 +82,9 @@
         "/images/marble/onyx1.jpg"
       ],
       "finish": "Polished",
-      "sizes": ["Slab"]
+      "sizes": ["Slab"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     }
   ]
 }

@@ -9,7 +9,9 @@
         "/images/porcelain/matte1.jpg"
       ],
       "finish": "Matte",
-      "sizes": ["60x60", "120x60", "80x80"]
+      "sizes": ["60x60", "120x60", "80x80"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "porcelain-polished",
@@ -19,7 +21,9 @@
         "/images/porcelain/polished1.jpg"
       ],
       "finish": "Polished",
-      "sizes": ["60x60", "120x60", "100x100"]
+      "sizes": ["60x60", "120x60", "100x100"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "porcelain-outdoor",
@@ -29,7 +33,9 @@
         "/images/porcelain/outdoor1.jpg"
       ],
       "finish": "Textured / Anti-Slip",
-      "sizes": ["60x60", "60x120", "20mm Outdoor Tiles"]
+      "sizes": ["60x60", "60x120", "20mm Outdoor Tiles"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     },
     {
       "id": "porcelain-wood",
@@ -39,7 +45,9 @@
         "/images/porcelain/wood1.jpg"
       ],
       "finish": "Matte / Textured",
-      "sizes": ["15x60", "20x120"]
+      "sizes": ["15x60", "20x120"],
+      "applications": "111",
+      "whatcasapiuprovides":"77"
     }
   ]
 }

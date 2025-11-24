@@ -2,7 +2,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home";
 import Contact from "./Contact";
-
+import About from "../pages/About";
 import ProductList from "../pages/ProductList";
 import ProductSubTypeInfo from "../pages/ProductSubTypeInfo";
 
@@ -58,7 +58,6 @@ export default function AnimatedRoutes() {
             }
           />
 
-          {/* صفحة قائمة منتجات فئة معينة */}
           <Route
             path="/products/:category"
             element={
@@ -67,8 +66,7 @@ export default function AnimatedRoutes() {
               </AnimatedPage>
             }
           />
-
-          {/* صفحة تفاصيل منتج */}
+ 
           <Route
             path="/products/:category/:productId"
             element={
@@ -77,7 +75,18 @@ export default function AnimatedRoutes() {
               </AnimatedPage>
             }
           />
+
+           <Route
+            path="/about"
+            element={
+              <AnimatedPage>
+                <About />
+              </AnimatedPage>
+            }
+          />
         </Route>
+
+       
       </Routes>
     </AnimatePresence>
   );
