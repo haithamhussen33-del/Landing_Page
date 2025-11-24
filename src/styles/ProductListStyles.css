@@ -18,23 +18,46 @@
     align-items: center;
     justify-content: center;
     margin: -4rem auto 2rem auto; /* Negative margin to pull it up */
-    background-color: var(--background); /* Match background to cover underlying elements if needed */
+    background-color: var(--background);
     border: 1px solid rgba(237, 217, 153, 0.2);
-    padding: 2rem;
+    padding: 0;
     border-radius: 0.5rem;
     width: 90%;
     max-width: 800px;
+    height: 300px; /* Fixed height for hero appearance */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
+    overflow: hidden;
 }
 
 .product-list-hero img {
-  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:bottom;
+    margin: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* Overlay for better text readability */
+.product-list-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .product-list-hero h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -43,6 +66,9 @@
     background: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
 }
 
 .product-grid {

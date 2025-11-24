@@ -1,5 +1,6 @@
 {
   "category": "Granite",
+   "hero":"/images/categoryhero/granitehero1.jpg",
   "types": [
     {
       "id": "black-galaxy",

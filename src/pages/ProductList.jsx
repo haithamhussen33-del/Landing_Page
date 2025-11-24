@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import "../styles/ProductListStyles.css";
-// دالة لتحميل بيانات JSON حسب الفئة
+
 const loadCategoryData = async (category) => {
   try {
     const data = await import(`../ProductsData/${category.toLowerCase()}.json`);
@@ -37,7 +37,7 @@ export default function ProductList() {
   }, [category]);
 
   const handleProductClick = (productId) => {
-    // الانتقال إلى صفحة تفاصيل المنتج
+   
     navigate(`/products/${category}/${productId}`);
   };
 
@@ -49,7 +49,7 @@ export default function ProductList() {
     
     <div className="product-list-container" >
       <div className="product-list-hero">
-        <img src="" alt="" />
+        <img src={categoryData.hero} alt="hero" />
           <h2 >
         {categoryData.category}
       </h2>

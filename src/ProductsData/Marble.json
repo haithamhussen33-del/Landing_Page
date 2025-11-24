@@ -1,5 +1,6 @@
 {
   "category": "Marble",
+   "hero":"/images/categoryhero/marblehero1.jpg",
   "types": [
     {
       "id": "calacatta",

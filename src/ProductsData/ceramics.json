@@ -1,5 +1,6 @@
 {
   "category": "Ceramics",
+  "hero":"/images/categoryhero/cerhero1.jpg",
   "types": [
     {
       "id": "white-ceramic-tile",
