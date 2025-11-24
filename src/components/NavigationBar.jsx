@@ -73,15 +73,7 @@ export default function NavigationBar() {
                 isDropdownOpen ? "dropdown-open" : ""
               }`}
             >
-              <li>
-                <NavLink
-                  to="/products/ceramics"
-                  className="dropdown-link"
-                  onClick={closeMobileMenu}
-                >
-                  Ceramics
-                </NavLink>
-              </li>
+             
               <li>
                 <NavLink
                   to="/products/granite"
@@ -109,15 +101,7 @@ export default function NavigationBar() {
                   Porcelain
                 </NavLink>
               </li>
-               <li>
-                <NavLink
-                  to="/products/santryware"
-                  className="dropdown-link"
-                  onClick={closeMobileMenu}
-                >
-                  SantryWare
-                </NavLink>
-              </li>
+              
             </ul>
           </li>
 
