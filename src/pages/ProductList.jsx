@@ -49,7 +49,7 @@ export default function ProductList() {
     
     <div className="product-list-container" >
       <div className="product-list-hero">
-        <img src={categoryData.hero} alt="hero" />
+        <img src={categoryData.hero} alt="hero" loading="lazy" />
           <h2 >
         {categoryData.category}
       </h2>

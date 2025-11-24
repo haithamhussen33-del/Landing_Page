@@ -24,7 +24,7 @@ export default function NavigationBar() {
     <nav className="navbar">
       <div className="nav-container">
         <div className="logo">
-          <img src={logoImage} alt="Company Logo" className="logo-img" />
+          <img src={logoImage} alt="Company Logo" className="logo-img" loading="lazy" />
         </div>
 
         <button

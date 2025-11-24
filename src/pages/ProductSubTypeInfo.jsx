@@ -47,6 +47,7 @@ export default function ProductSubTypeInfo() {
               src={product.images[currentImageIndex]}
               alt={`${product.name} view ${currentImageIndex + 1}`}
               className="carousel-image"
+              loading="lazy"
             />
           </div>
           <button className="carousel-btn next" onClick={nextImage}>

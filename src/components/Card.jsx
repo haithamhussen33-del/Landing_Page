@@ -11,7 +11,7 @@ export default function Card({ leftCard, rightCard }) {
         </p>
       </div>
       <div className="left-card-img-container">
-        <img className="left-card-img" src={leftCard.imgback} alt="" />
+        <img className="left-card-img" src={leftCard.imgback} alt="" loading="lazy" />
       </div>
     </div>
     <div className="right-card-container">
@@ -22,7 +22,7 @@ export default function Card({ leftCard, rightCard }) {
         </p>
       </div>
       <div className="right-card-img-container">
-        <img className="right-card-img" src={rightCard.imgback} alt="" />
+        <img className="right-card-img" src={rightCard.imgback} alt="" loading="lazy" />
       </div>
     </div>
 
