@@ -6,7 +6,7 @@
   "framework": "vite",
   "headers": [
     {
-      "source": "/images/(.*)",
+      "source": "/images-public/(.*)",
       "headers": [
         {
           "key": "Cache-Control",

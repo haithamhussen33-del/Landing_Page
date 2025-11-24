@@ -1,6 +1,6 @@
 {
   "category": "granite",
-   "hero":"/images/categoryhero/granitehero1.jpg",
+   "hero":"/images-public/categoryhero/granitehero1.jpg",
    "description":"dasdsjakdhkjasdhkjas",
   "types": [
     {
@@ -8,7 +8,7 @@
       "name": "Black Galaxy",
       "description": "Premium black granite with gold and copper speckles. Ideal for countertops, flooring, and luxury interior designs.",
       "images": [
-        "/images/granite/black-galaxy1.jpg"
+        "/images-public/granite/black-galaxy1.jpg"
       ],
       "finish": "Polished",
       "sizes": ["Slab", "60x60"],
@@ -25,7 +25,7 @@
       "name": "Tan Brown",
       "description": "Dark brown granite with black and chestnut tones. Suitable for countertops, stairs, and indoor flooring.",
       "images": [
-        "/images/granite/tan-brown1.jpg"
+        "/images-public/granite/tan-brown1.jpg"
       ],
       "finish": "Polished",
       "sizes": ["Slab", "60x60"],
@@ -42,7 +42,7 @@
       "name": "Absolute Black",
       "description": "Solid black granite with a uniform texture, known for its elegance and durability in kitchens and commercial spaces.",
       "images": [
-        "/images/granite/absolute-black1.jpg"
+        "/images-public/granite/absolute-black1.jpg"
       ],
       "finish": "Polished / Honed",
       "sizes": ["Slab"],
@@ -59,7 +59,7 @@
       "name": "Steel Grey",
       "description": "Medium-dark grey granite with subtle metallic patterns. Frequently used in flooring, façades, and countertops.",
       "images": [
-        "/images/granite/steel-grey1.jpg"
+        "/images-public/granite/steel-grey1.jpg"
       ],
       "finish": "Polished / Leathered",
       "sizes": ["Slab", "60x60"],

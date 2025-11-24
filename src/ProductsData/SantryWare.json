@@ -1,6 +1,6 @@
 {
   "category": "santryware",
-   "hero":"/images/categoryhero/hero1.jpg",
+   "hero":"/images-public/categoryhero/hero1.jpg",
    "description":"adssadsa",
   "types": [
     {
@@ -8,7 +8,7 @@
       "name": "Matte Porcelain",
       "description": "Durable matte-finish porcelain tiles suitable for modern interiors, offering slip resistance and a soft natural look.",
       "images": [
-        "/images/porcelain/matte1.jpg"
+        "/images-public/porcelain/matte1.jpg"
       ],
       "finish": "Matte",
       "sizes": ["60x60", "120x60", "80x80"],
@@ -20,7 +20,7 @@
       "name": "Polished Porcelain",
       "description": "High-gloss porcelain tiles with a mirror-like surface, ideal for luxury residential and commercial interiors.",
       "images": [
-        "/images/porcelain/polished1.jpg"
+        "/images-public/porcelain/polished1.jpg"
       ],
       "finish": "Polished",
       "sizes": ["60x60", "120x60", "100x100"],

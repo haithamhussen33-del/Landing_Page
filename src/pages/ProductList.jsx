@@ -6,7 +6,7 @@ import "../styles/ProductListStyles.css";
 
 const loadCategoryData = async (category) => {
   try {
-    const data = await import(`../ProductsData/${category.toLowerCase()}.json`);
+    const data = await import(`../ProductsData/${category}.json`);
     return data.default;
   } catch (error) {
     console.error("Category not found:", category, error);
