@@ -1,0 +1,24 @@
+{
+  "category": "Ceramics",
+  "types": [
+    {
+      "id": "white-ceramic-tile",
+      "name": "White Ceramic Tile",
+      "description": "Elegant white ceramic tile suitable for floors and walls.",
+      "images": [
+        "/images/services/ceramics/white-ceramic1.jpg",
+        "/images/services/ceramics/white-ceramic2.jpg"
+      ],
+      "finish": "Glossy",
+      "sizes": ["30x30", "60x60"]
+    },
+    {
+      "id": "grey-ceramic-tile",
+      "name": "Grey Ceramic Tile",
+      "description": "Modern grey ceramic tile with subtle texture.",
+      "images": ["/images/services/ceramics/grey-ceramic1.jpg"],
+      "finish": "Matte",
+      "sizes": ["30x30", "60x60"]
+    }
+  ]
+}

@@ -1,46 +1,37 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-
-import ProductsType from "../pages/ProductsType"; 
 import Layout from "./Layout";
 import Home from "./Home";
 import Contact from "./Contact";
+
+import ProductList from "../pages/ProductList";
+import ProductSubTypeInfo from "../pages/ProductSubTypeInfo";
+
 import { AnimatePresence, motion } from "framer-motion";
 
 const pageVariants = {
-  initial: {
-    opacity: 0,
-    x: -100,
-  },
+  initial: { opacity: 0, x: -100 },
   animate: {
     opacity: 1,
     x: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeInOut",
-    },
+    transition: { duration: 0.6, ease: "easeInOut" },
   },
   exit: {
     opacity: 0,
     x: 100,
-    transition: {
-      duration: 0.6,
-      ease: "easeInOut",
-    },
+    transition: { duration: 0.6, ease: "easeInOut" },
   },
 };
 
-const AnimatedPage = ({ children }) => {
-  return (
-    <motion.div
-      variants={pageVariants}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-    >
-      {children}
-    </motion.div>
-  );
-};
+const AnimatedPage = ({ children }) => (
+  <motion.div
+    variants={pageVariants}
+    initial="initial"
+    animate="animate"
+    exit="exit"
+  >
+    {children}
+  </motion.div>
+);
 
 export default function AnimatedRoutes() {
   const location = useLocation();
@@ -57,6 +48,7 @@ export default function AnimatedRoutes() {
               </AnimatedPage>
             }
           />
+
           <Route
             path="/contact"
             element={
@@ -65,11 +57,23 @@ export default function AnimatedRoutes() {
               </AnimatedPage>
             }
           />
+
+          {/* صفحة قائمة منتجات فئة معينة */}
           <Route
-            path="/products/:id"
+            path="/products/:category"
             element={
               <AnimatedPage>
-                <ProductsType />
+                <ProductList />
+              </AnimatedPage>
+            }
+          />
+
+          {/* صفحة تفاصيل منتج */}
+          <Route
+            path="/products/:category/:productId"
+            element={
+              <AnimatedPage>
+                <ProductSubTypeInfo />
               </AnimatedPage>
             }
           />

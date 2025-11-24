@@ -2,6 +2,7 @@ import logoImage from "../assets/images/text-casa.png";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "../styles/NavigationBar.css";
+
 export default function NavigationBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -25,6 +26,7 @@ export default function NavigationBar() {
         <div className="logo">
           <img src={logoImage} alt="Company Logo" className="logo-img" />
         </div>
+
         <button
           className="hamburger-menu"
           onClick={toggleMobileMenu}
@@ -46,41 +48,26 @@ export default function NavigationBar() {
             }
           ></span>
         </button>
+
         <ul
           className={`nav-menu ${isMobileMenuOpen ? "mobile-menu-open" : ""}`}
         >
           <li>
-            <NavLink
-              to={"/"}
-              end
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              onClick={closeMobileMenu}
-            >
+            <NavLink to="/" end className="nav-link" onClick={closeMobileMenu}>
               Home
             </NavLink>
           </li>
+
           <li className="nav-item-dropdown">
             <div className="dropdown-toggle" onClick={toggleDropdown}>
-              <NavLink
-                to={"/products"}
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-                onClick={(e) => {
-                  e.preventDefault();
-                  toggleDropdown();
-                }}
-              >
-                Products
-              </NavLink>
+              <span className="nav-link">Products</span>
               <span
                 className={`dropdown-arrow ${isDropdownOpen ? "open" : ""}`}
               >
                 ▼
               </span>
             </div>
+
             <ul
               className={`dropdown-menu ${
                 isDropdownOpen ? "dropdown-open" : ""
@@ -88,10 +75,8 @@ export default function NavigationBar() {
             >
               <li>
                 <NavLink
-                  to={"/products/1"}
-                  className={({ isActive }) =>
-                    isActive ? "dropdown-link active" : "dropdown-link"
-                  }
+                  to="/products/Ceramics"
+                  className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
                   Ceramics
@@ -99,21 +84,17 @@ export default function NavigationBar() {
               </li>
               <li>
                 <NavLink
-                  to={"/products/2"}
-                  className={({ isActive }) =>
-                    isActive ? "dropdown-link active" : "dropdown-link"
-                  }
+                  to="/products/Granite"
+                  className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
-                  Granit
+                  Granite
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to={"/products/3"}
-                  className={({ isActive }) =>
-                    isActive ? "dropdown-link active" : "dropdown-link"
-                  }
+                  to="/products/Marble"
+                  className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
                   Marble
@@ -121,10 +102,8 @@ export default function NavigationBar() {
               </li>
               <li>
                 <NavLink
-                  to={"/products/4"}
-                  className={({ isActive }) =>
-                    isActive ? "dropdown-link active" : "dropdown-link"
-                  }
+                  to="/products/Porcelain"
+                  className="dropdown-link"
                   onClick={closeMobileMenu}
                 >
                   Porcelain
@@ -132,25 +111,19 @@ export default function NavigationBar() {
               </li>
             </ul>
           </li>
+
           <li>
             <NavLink
-              to={"/contact"}
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
+              to="/contact"
+              className="nav-link"
               onClick={closeMobileMenu}
             >
               Contact
             </NavLink>
           </li>
+
           <li>
-            <NavLink
-              to={"/About Us"}
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              onClick={closeMobileMenu}
-            >
+            <NavLink to="/about" className="nav-link" onClick={closeMobileMenu}>
               About Us
             </NavLink>
           </li>
