@@ -1,6 +1,7 @@
 {
   "category": "Granite",
    "hero":"/images/categoryhero/granitehero1.jpg",
+   "description":"dasdsjakdhkjasdhkjas",
   "types": [
     {
       "id": "black-galaxy",
@@ -11,7 +12,12 @@
       ],
       "finish": "Polished",
       "sizes": ["Slab", "60x60"],
-      "applications": "111",
+      "applications": [
+    "Kitchen countertops and islands",
+    "Hotel and villa flooring",
+    "Bathroom vanities and wall cladding",
+    "Reception desks and luxury commercial interiors"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -23,7 +29,12 @@
       ],
       "finish": "Polished",
       "sizes": ["Slab", "60x60"],
-      "applications": "222",
+      "applications": [
+    "Residential kitchen countertops",
+    "Staircases and internal flooring",
+    "Store countertops and commercial surfaces",
+    "Wall cladding for warm-toned interiors"
+  ],
       "what casapiu provides":"77"
     },
     {
@@ -35,7 +46,12 @@
       ],
       "finish": "Polished / Honed",
       "sizes": ["Slab"],
-      "applications": "333",
+      "applications": [
+    "Modern kitchen countertops and backsplashes",
+    "High-traffic commercial flooring",
+    "Monuments and exterior installations",
+    "Bathroom vanities and minimalist interior designs"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -47,7 +63,12 @@
       ],
       "finish": "Polished / Leathered",
       "sizes": ["Slab", "60x60"],
-      "applications": "444",
+      "applications": [
+    "Facade cladding and exterior walls",
+    "Commercial flooring and high-durability areas",
+    "Kitchen countertops and worktops",
+    "Retail store interiors and display units"
+  ],
       "whatcasapiuprovides":"77"
     }
   ]

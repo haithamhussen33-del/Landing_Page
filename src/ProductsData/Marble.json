@@ -1,6 +1,7 @@
 {
   "category": "Marble",
    "hero":"/images/categoryhero/marblehero1.jpg",
+   "description":"•Top-grade slab selection\n•Custom cut-to-size\n•Delivery to site\n•Quality inspection and sorting\n",
   "types": [
     {
       "id": "calacatta",
@@ -12,7 +13,12 @@
       ],
       "finish": "Polished / Honed",
       "sizes": ["60x60", "120x60", "Slab"],
-      "applications": "111",
+      "applications":  [
+    "Luxury flooring for villas and hotels",
+    "High-end kitchen countertops",
+    "Feature walls in reception areas",
+    "Premium bathroom slabs and shower walls"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -24,7 +30,12 @@
       ],
       "finish": "Polished / Honed",
       "sizes": ["60x60", "120x60", "Slab"],
-      "applications": "111",
+      "applications": [
+    "Elegant bathroom walls and vanities",
+    "Hotel lobbies and high-class commercial interiors",
+    "Artistic feature panels",
+    "Premium dining table tops"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -36,7 +47,12 @@
       ],
       "finish": "Polished",
       "sizes": ["60x60", "120x60"],
-      "applications": "111",
+      "applications": [
+    "Living room flooring",
+    "Wall cladding for modern interiors",
+    "Bathroom tiles and vanity counters",
+    "Boutique stores and showrooms"
+  ],
       "whatcasapiuprovidess":"77"
     },
     {
@@ -48,7 +64,12 @@
       ],
       "finish": "Polished / Honed",
       "sizes": ["60x60", "120x60", "Slab"],
-      "applications": "111",
+      "applications": [
+    "Kitchen countertops",
+    "Bathroom tiles and sinks",
+    "Staircases and corridors",
+    "Commercial flooring (medium traffic)"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -60,7 +81,12 @@
       ],
       "finish": "Polished",
       "sizes": ["60x60", "120x60"],
-      "applications": "111",
+      "applications": [
+    "Lobby flooring and hotel reception desks",
+    "Fireplace surrounds",
+    "Decorative wall cladding",
+    "Coffee tables and interior accents"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -72,7 +98,12 @@
       ],
       "finish": "Honed / Filled / Unfilled",
       "sizes": ["30x60", "60x60", "Slab"],
-      "applications": "111",
+      "applications": [
+    "Exterior cladding and facades",
+    "Outdoor flooring and pool surroundings",
+    "Interior walls with rustic style",
+    "Garden pathways"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -84,7 +115,12 @@
       ],
       "finish": "Polished",
       "sizes": ["Slab"],
-      "applications": "111",
+      "applications":  [
+    "Backlit wall panels (LED)",
+    "Luxury bars and reception counters",
+    "Decorative partitions",
+    "Artistic installations"
+  ],
       "whatcasapiuprovides":"77"
     }
   ]

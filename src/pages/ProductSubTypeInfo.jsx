@@ -69,9 +69,16 @@ export default function ProductSubTypeInfo() {
         <div className="product-details">
           <p className="product-description">{product.description}</p>
           <div className="product-meta">
-            <p><strong>Sizes:</strong> {product.sizes}</p>
+            <p><strong>Sizes:</strong> {product.sizes.join(', ')}</p>
             <p><strong>Finish:</strong> {product.finish}</p>
-            <p><strong>Applications:</strong> {product.applications}</p>
+            <div className="applications-section">
+              <strong>Applications:</strong>
+              <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginTop: '5px' }}>
+                {product.applications.map((app, index) => (
+                  <li key={index}>{app}</li>
+                ))}
+              </ul>
+            </div>
             <p><strong>What Casapiu Provides:</strong> {product.whatcasapiuprovides}</p>
           </div>
         </div>

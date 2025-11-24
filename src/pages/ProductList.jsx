@@ -54,7 +54,8 @@ export default function ProductList() {
         {categoryData.category}
       </h2>
       </div>
-
+      <div className="category-description"></div>
+        <p className="text-xl font-bold mb-5">{categoryData.description}</p>
       <div
         className="product-grid"
       >

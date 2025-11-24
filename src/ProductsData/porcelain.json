@@ -1,6 +1,7 @@
 {
   "category": "Porcelain",
    "hero":"/images/categoryhero/porcelainhero1.jpg",
+   "description":"Wide selection\n• Samples upon request\n• Fast delivery\n• Best price–quality match",
   "types": [
     {
       "id": "porcelain-matte",
@@ -11,7 +12,12 @@
       ],
       "finish": "Matte",
       "sizes": ["60x60", "120x60", "80x80"],
-      "applications": "111",
+      "applications": [
+    "Living room and bedroom flooring",
+    "Modern office and shop interiors",
+    "Bathrooms and kitchens requiring slip resistance",
+    "Minimalist wall cladding and large open spaces"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -23,7 +29,12 @@
       ],
       "finish": "Polished",
       "sizes": ["60x60", "120x60", "100x100"],
-      "applications": "111",
+      "applications": [
+    "Luxury residential flooring",
+    "Hotel lobbies and reception areas",
+    "High-end commercial interiors",
+    "Feature walls and upscale bathrooms"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -35,7 +46,12 @@
       ],
       "finish": "Textured / Anti-Slip",
       "sizes": ["60x60", "60x120", "20mm Outdoor Tiles"],
-      "applications": "111",
+      "applications":  [
+    "Terraces and balconies",
+    "Gardens, patios, and walkways",
+    "Swimming pool surroundings",
+    "Public outdoor spaces and heavy-traffic areas"
+  ],
       "whatcasapiuprovides":"77"
     },
     {
@@ -47,7 +63,12 @@
       ],
       "finish": "Matte / Textured",
       "sizes": ["15x60", "20x120"],
-      "applications": "111",
+      "applications": [
+    "Living rooms and bedrooms with wood aesthetics",
+    "Cafés and restaurants seeking warm interior design",
+    "Bathrooms where real wood cannot be used",
+    "Outdoor decking and terraces"
+  ],
       "whatcasapiuprovides":"77"
     }
   ]
