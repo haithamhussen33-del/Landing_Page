@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../styles/HeroCarousel.css";
-import hero1 from "../assets/images/hero/hero-luxury.png";
-import hero2 from "../assets/images/hero/hero-bathroom.png";
-import hero3 from "../assets/images/services/logistics.png"; // Reusing the premium logistics image
+import hero1 from "../assets/images/hero/hero-luxury.webp";
+import hero2 from "../assets/images/hero/hero-bathroom.webp";
+import hero3 from "../assets/images/services/logistics.webp"; // Reusing the premium logistics image
 import "../index.css";
 
 const images = [hero1, hero2, hero3];

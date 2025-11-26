@@ -1,6 +1,6 @@
 {
   "category": "marble",
-   "hero":"/images-public/categoryhero/marblehero1.jpg",
+   "hero":"/images-public/categoryhero/marblehero2.webp",
    "description":"•Top-grade slab selection\n•Custom cut-to-size\n•Delivery to site\n•Quality inspection and sorting\n",
   "types": [
     {
@@ -8,8 +8,8 @@
       "name": "Calacatta",
       "description": "Luxurious white marble with bold, dramatic veining. Commonly used in high-end interiors and feature walls.",
       "images": [
-        "/images-public/marble/calacatta1.jpg",
-        "/images-public/marble/calacatta2.jpg"
+        "/images-public/marble/calacatta1.webp",
+        "/images-public/marble/calacatta2.webp"
       ],
       "finish": "Polished / Honed",
       "sizes": ["60x60", "120x60", "Slab"],
@@ -26,7 +26,7 @@
       "name": "Statuario",
       "description": "Bright white marble with thick, elegant grey veins. Known for its premium look and luxurious appeal.",
       "images": [
-        "/images-public/marble/statuario1.jpg"
+        "/images-public/marble/statuario1.webp"
       ],
       "finish": "Polished / Honed",
       "sizes": ["60x60", "120x60", "Slab"],
@@ -43,7 +43,7 @@
       "name": "Volakas",
       "description": "Greek marble with soft linear grey veins. Popular for floors, walls, and modern interior designs.",
       "images": [
-        "/images-public/marble/volakas1.jpg"
+        "/images-public/marble/volakas1.webp"
       ],
       "finish": "Polished",
       "sizes": ["60x60", "120x60"],
@@ -60,7 +60,7 @@
       "name": "Carrara",
       "description": "Classic Italian marble with subtle, fine grey veining. A timeless option for both residential and commercial spaces.",
       "images": [
-        "/images-public/marble/carrara1.jpg"
+        "/images-public/marble/carrara1.webp"
       ],
       "finish": "Polished / Honed",
       "sizes": ["60x60", "120x60", "Slab"],
@@ -77,7 +77,7 @@
       "name": "Emperador",
       "description": "Rich brown marble with white and light brown veining. Ideal for luxury floor and wall applications.",
       "images": [
-        "/images-public/marble/emperador1.jpg"
+        "/images-public/marble/emperador1.webp"
       ],
       "finish": "Polished",
       "sizes": ["60x60", "120x60"],
@@ -94,7 +94,7 @@
       "name": "Travertine",
       "description": "Natural warm-toned stone with unique textures and patterns. Often used in bathrooms, outdoor areas, and rustic designs.",
       "images": [
-        "/images-public/marble/travertine1.jpg"
+        "/images-public/marble/travertine1.webp"
       ],
       "finish": "Honed / Filled / Unfilled",
       "sizes": ["30x60", "60x60", "Slab"],
@@ -111,7 +111,7 @@
       "name": "Onyx",
       "description": "Semi-precious translucent stone known for its dramatic colors and veining. Perfect for backlit walls and luxury interiors.",
       "images": [
-        "/images-public/marble/onyx1.jpg"
+        "/images-public/marble/onyx1.webp"
       ],
       "finish": "Polished",
       "sizes": ["Slab"],

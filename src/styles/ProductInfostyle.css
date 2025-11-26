@@ -12,7 +12,9 @@
     color: var(--text, #ffffff);
 }
 
-
+.product-info-container h5 {
+    display: block;
+}
 
 
 .product-images-section {

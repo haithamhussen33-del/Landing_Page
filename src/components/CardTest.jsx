@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import hero1 from "../assets/images/hero/hero-luxury.png";
+import hero1 from "../assets/images/hero/hero-luxury.webp";
 
 export default function CardTest() {
   return (

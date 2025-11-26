@@ -1,75 +1,267 @@
 {
   "category": "porcelain",
-   "hero":"/images-public/categoryhero/porcelainhero1.jpg",
-   "description":"Wide selection\n• Samples upon request\n• Fast delivery\n• Best pricequality match",
+  "hero": "/images-public/categoryhero/porcelainhero1.webp",
+  "description": "Wide selection\n• Samples upon request\n• Fast delivery\n• Best pricequality match",
   "types": [
     {
-      "id": "porcelain-matte",
-      "name": "Matte Porcelain",
-      "description": "Durable matte-finish porcelain tiles suitable for modern interiors, offering slip resistance and a soft natural look.",
-      "images": [
-        "/images-public/porcelain/matte1.jpg"
-      ],
-      "finish": "Matte",
-      "sizes": ["60x60", "120x60", "80x80"],
-      "applications": [
-    "Living room and bedroom flooring",
-    "Modern office and shop interiors",
-    "Bathrooms and kitchens requiring slip resistance",
-    "Minimalist wall cladding and large open spaces"
-  ],
-      "whatcasapiuprovides":"77"
+      "id": "ARGENTINE",
+      "name": "ARGENTINE",
+      "description": "",
+      "images": ["/images-public/porcelain/ARGENTINE/ARGENTINE-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/ARGENTINE/ARGENTINE_1.jpeg", "/images-public/porcelain/ARGENTINE/ARGENTINE_2.jpeg", "/images-public/porcelain/ARGENTINE/ARGENTINE_3.jpeg", "/images-public/porcelain/ARGENTINE/ARGENTINE_4.jpeg"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
     },
     {
-      "id": "porcelain-polished",
-      "name": "Polished Porcelain",
-      "description": "High-gloss porcelain tiles with a mirror-like surface, ideal for luxury residential and commercial interiors.",
-      "images": [
-        "/images-public/porcelain/polished1.jpg"
-      ],
-      "finish": "Polished",
-      "sizes": ["60x60", "120x60", "100x100"],
-      "applications": [
-    "Luxury residential flooring",
-    "Hotel lobbies and reception areas",
-    "High-end commercial interiors",
-    "Feature walls and upscale bathrooms"
-  ],
-      "whatcasapiuprovides":"77"
+      "id": "ATENIA-BIANCO",
+      "name": "ATENIA BIANCO",
+      "description": "",
+      "images": ["/images-public/porcelain/ATENIA-BIANCO/ANKARA-BIANCO-600x600mm-MATT-MAIN.webp", "/images-public/porcelain/ATENIA-BIANCO/ATENIA-BIANCO_1.webp", "/images-public/porcelain/ATENIA-BIANCO/ATENIA-BIANCO_2.webp", "/images-public/porcelain/ATENIA-BIANCO/ATENIA-BIANCO_3.webp", "/images-public/porcelain/ATENIA-BIANCO/ATENIA-BIANCO_4.webp"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
     },
     {
-      "id": "porcelain-outdoor",
-      "name": "Outdoor Porcelain",
-      "description": "Thick anti-slip outdoor porcelain designed for terraces, gardens, pathways, and high-traffic areas.",
-      "images": [
-        "/images-public/porcelain/outdoor1.jpg"
-      ],
-      "finish": "Textured / Anti-Slip",
-      "sizes": ["60x60", "60x120", "20mm Outdoor Tiles"],
-      "applications":  [
-    "Terraces and balconies",
-    "Gardens, patios, and walkways",
-    "Swimming pool surroundings",
-    "Public outdoor spaces and heavy-traffic areas"
-  ],
-      "whatcasapiuprovides":"77"
+      "id": "EMPORIO-ARMANI-LIGHT-GREY",
+      "name": "EMPORIO ARMANI LIGHT GREY",
+      "description": "",
+      "images": ["/images-public/porcelain/EMPORIO-ARMANI-LIGHT/EMPORIO-ARMANI-LIGHT-GREY-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/EMPORIO-ARMANI-LIGHT/EMPORIO-ARMANI-LIGHT-GREY_1.jpeg", "/images-public/porcelain/EMPORIO-ARMANI-LIGHT/EMPORIO-ARMANI-LIGHT-GREY_2.jpeg", "/images-public/porcelain/EMPORIO-ARMANI-LIGHT/EMPORIO-ARMANI-LIGHT-GREY_3.jpeg"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
     },
     {
-      "id": "porcelain-wood",
-      "name": "Wood-Look Porcelain",
-      "description": "Porcelain tiles designed to mimic natural wood while offering water resistance and long-lasting durability.",
-      "images": [
-        "/images-public/porcelain/wood1.jpg"
-      ],
-      "finish": "Matte / Textured",
-      "sizes": ["15x60", "20x120"],
-      "applications": [
-    "Living rooms and bedrooms with wood aesthetics",
-    "Cafés and restaurants seeking warm interior design",
-    "Bathrooms where real wood cannot be used",
-    "Outdoor decking and terraces"
-  ],
-      "whatcasapiuprovides":"77"
+      "id": "LOFTY-BEIGE",
+      "name": "LOFTY BEIGE",
+      "description": "",
+      "images": ["/images-public/porcelain/LOFTY-BEIGE/LOFTY-BEIGE-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/LOFTY-BEIGE/LOFTY-BEIGE_1.jpeg", "/images-public/porcelain/LOFTY-BEIGE/LOFTY-BEIGE_2.jpeg", "/images-public/porcelain/LOFTY-BEIGE/LOFTY-BEIGE_3.jpeg", "/images-public/porcelain/LOFTY-BEIGE/LOFTY-BEIGE_4.jpeg"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "LOFTY-BIANCO",
+      "name": "LOFTY BIANCO",
+      "description": "",
+      "images": ["/images-public/porcelain/LOFTY-BIANCO/LOFTY-BIANCO-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/LOFTY-BIANCO/LOFTY-BIANCO_1.jpeg", "/images-public/porcelain/LOFTY-BIANCO/LOFTY-BIANCO_2.jpeg", "/images-public/porcelain/LOFTY-BIANCO/LOFTY-BIANCO_3.jpeg", "/images-public/porcelain/LOFTY-BIANCO/LOFTY-BIANCO_4.jpeg"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "CELTICA-BEIGE",
+      "name": "CELTICA BEIGE",
+      "description": "",
+      "images": ["/images-public/porcelain/CELTICA-BEIGE/CELTICA-BEIGE_MAIN.jpeg", "/images-public/porcelain/CELTICA-BEIGE/CELTICA-BEIGE_2.jpeg", "/images-public/porcelain/CELTICA-BEIGE/CELTICA-BEIGE_3.jpeg", "/images-public/porcelain/CELTICA-BEIGE/CELTICA-BEIGE_4.jpeg"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "STATUARIO-MAXXO-GOLD",
+      "name": "STATUARIO MAXXO GOLD",
+      "description": "",
+      "images": ["/images-public/porcelain/STATUARIO-MAXXO GOLD/STATUARIO-MAXXO-GOLD-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/STATUARIO-MAXXO GOLD/STATUARIO-MAXXO-GOLD_1.jpeg", "/images-public/porcelain/STATUARIO-MAXXO GOLD/STATUARIO-MAXXO-GOLD_2.jpeg", "/images-public/porcelain/STATUARIO-MAXXO GOLD/STATUARIO-MAXXO-GOLD_3.jpeg", "/images-public/porcelain/STATUARIO-MAXXO GOLD/STATUARIO-MAXXO-GOLD_4.jpeg"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "ARMANI-GREY",
+      "name": "ARMANI GREY",
+      "description": "",
+      "images": ["/images-public/porcelain/ARMANI-GREY/ARMANI-GREY-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/ARMANI-GREY/ARMANI-GREY_1.jpeg", "/images-public/porcelain/ARMANI-GREY/ARMANI-GREY_2.jpeg", "/images-public/porcelain/ARMANI-GREY/ARMANI-GREY_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "ARMANI-LIGHT-GREY",
+      "name": "ARMANI LIGHT GREY",
+      "description": "",
+      "images": ["/images-public/porcelain/ARMANI-LIGHT-GREY/ARMANI-LIGHT-GREY-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/ARMANI-LIGHT-GREY/ARMANI-LIGHT-GREY_1.jpeg", "/images-public/porcelain/ARMANI-LIGHT-GREY/ARMANI-LIGHT-GREY_2.jpeg", "/images-public/porcelain/ARMANI-LIGHT-GREY/ARMANI-LIGHT-GREY_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "EMPORIO-ARMANI-GREY",
+      "name": "EMPORIO ARMANI GREY",
+      "description": "",
+      "images": ["/images-public/porcelain/EMPORIO-ARMANI-GREY/EMPORIO-ARMANI-GREY-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/EMPORIO-ARMANI-GREY/EMPORIO-ARMANI-GREY_1.jpeg", "/images-public/porcelain/EMPORIO-ARMANI-GREY/EMPORIO-ARMANI-GREY_2.jpeg", "/images-public/porcelain/EMPORIO-ARMANI-GREY/EMPORIO-ARMANI-GREY_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "PIETRA-SLATEDARK-GREY",
+      "name": "PIETRA SLATEDARK GREY",
+      "description": "",
+      "images": ["/images-public/porcelain/PIETRA-SLATE-DARK-GREY/PIETRA-SLATE-DARK-GREY-600x1200mm-GLOSSY-MAIN.webp", "/images-public/porcelain/PIETRA-SLATE-DARK-GREY/PIETRA-SLATE-DARK-GREY_1.jpeg", "/images-public/porcelain/PIETRA-SLATE-DARK-GREY/PIETRA-SLATE-DARK-GREY_2.jpeg", "/images-public/porcelain/PIETRA-SLATE-DARK-GREY/PIETRA-SLATE-DARK-GREY_3.jpeg", "/images-public/porcelain/PIETRA-SLATE-DARK-GREY/PIETRA-SLATE-DARK-GREY_4.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "PREDO-ONYX",
+      "name": "PREDO ONYX",
+      "description": "",
+      "images": ["/images-public/porcelain/PREDO-ONYX/PREDO-ONYX-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/PREDO-ONYX/PREDO-ONYX_1.jpeg", "/images-public/porcelain/PREDO-ONYX/PREDO-ONYX_2.jpeg", "/images-public/porcelain/PREDO-ONYX/PREDO-ONYX_3.jpeg", "/images-public/porcelain/PREDO-ONYX/PREDO-ONYX_4.jpeg"],
+      "finish": "GLOSSY",
+      "sizes": ["600x1200mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "ALBET-WHITE",
+      "name": "ALBET WHITE",
+      "description": "",
+      "images": ["/images-public/porcelain/ALBET-WHITE/ALBET-WHITE-600x600mm-MATT-MAIN.jpeg", "/images-public/porcelain/ALBET-WHITE/ALBET-WHITE_1.jpeg", "/images-public/porcelain/ALBET-WHITE/ALBET-WHITE_2.jpeg", "/images-public/porcelain/ALBET-WHITE/ALBET-WHITE_3.jpeg", "/images-public/porcelain/ALBET-WHITE/ALBET-WHITE_4.jpeg", "/images-public/porcelain/ALBET-WHITE/ALBET-WHITE_5.jpeg", "/images-public/porcelain/ALBET-WHITE/ALBET-WHITE_6.jpeg"],
+      "finish": "MATT",
+      "sizes": ["600x600mm"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "SILVER-SHINE",
+      "name": "SILVER SHINE",
+      "description": "",
+      "images": ["/images-public/porcelain/SILVER-SHINE/SILVER-SHINE-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/SILVER-SHINE/SILVER-SHINE_1.jpeg", "/images-public/porcelain/SILVER-SHINE/SILVER-SHINE_2.jpeg", "/images-public/porcelain/SILVER-SHINE/SILVER-SHINE_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "VENATINO-BIANCO",
+      "name": "VENATINO BIANCO",
+      "description": "",
+      "images": ["/images-public/porcelain/VENATINO-BIANCO/VENATINO-BIANCO-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/VENATINO-BIANCO/VENATINO-BIANCO_1.jpeg", "/images-public/porcelain/VENATINO-BIANCO/VENATINO-BIANCO_2.jpeg", "/images-public/porcelain/VENATINO-BIANCO/VENATINO-BIANCO_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "ANTIQUE-ONIX",
+      "name": "ANTIQUE ONIX",
+      "description": "",
+      "images": ["/images-public/porcelain/ANTIQUE-ONIX/ANTIQUE-ONIX-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/ANTIQUE-ONIX/ANTIQUE-ONIX_1.jpeg", "/images-public/porcelain/ANTIQUE-ONIX/ANTIQUE-ONIX_2.jpeg", "/images-public/porcelain/ANTIQUE-ONIX/ANTIQUE-ONIX_3.jpeg", "/images-public/porcelain/ANTIQUE-ONIX/ANTIQUE-ONIX_4.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "ANTY-SKY",
+      "name": "ANTY SKY",
+      "description": "",
+      "images": ["/images-public/porcelain/ANTY-SKY/ANTY-SKY-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/ANTY-SKY/ANTY-SKY_1.jpeg", "/images-public/porcelain/ANTY-SKY/ANTY-SKY_2.jpeg", "/images-public/porcelain/ANTY-SKY/ANTY-SKY_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "AQUARIUS-ONYX-GREY",
+      "name": "AQUARIUS ONYX GREY",
+      "description": "",
+      "images": ["/images-public/porcelain/AQUARIUS-ONYX-GREY/AQUARIUS-ONYX-GREY-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/AQUARIUS-ONYX-GREY/AQUARIUS-ONYX-GREY_1.jpeg", "/images-public/porcelain/AQUARIUS-ONYX-GREY/AQUARIUS-ONYX-GREY_2.jpeg", "/images-public/porcelain/AQUARIUS-ONYX-GREY/AQUARIUS-ONYX-GREY_3.jpeg", "/images-public/porcelain/AQUARIUS-ONYX-GREY/AQUARIUS-ONYX-GREY_4.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "BRILLO-WHITE",
+      "name": "BRILLO WHITE",
+      "description": "",
+      "images": ["/images-public/porcelain/BRILLO-WHITE/BRILLO-WHITE-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/BRILLO-WHITE/BRILLO-WHITE_1.jpeg", "/images-public/porcelain/BRILLO-WHITE/BRILLO-WHITE_2.jpeg", "/images-public/porcelain/BRILLO-WHITE/BRILLO-WHITE_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "COVENTRY-BIANCO",
+      "name": "COVENTRY BIANCO",
+      "description": "",
+        "images": ["/images-public/porcelain/COVENTRY-BIANCO/COVENTRY-BIANCO-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/COVENTRY-BIANCO/COVENTRY-BIANCO_1.jpeg", "/images-public/porcelain/COVENTRY-BIANCO/COVENTRY-BIANCO_2.jpeg", "/images-public/porcelain/COVENTRY-BIANCO/COVENTRY-BIANCO_3.jpeg"],
+        "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "ELVINE-GREY",
+      "name": "ELVINE GREY",
+      "description": "",
+      "images": ["/images-public/porcelain/ELVINE-GREY/ELVINE-GREY-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/ELVINE-GREY/ELVINE-GREY_1.jpeg", "/images-public/porcelain/ELVINE-GREY/ELVINE-GREY_2.jpeg", "/images-public/porcelain/ELVINE-GREY/ELVINE-GREY_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "GOLDEN-PULIDO",
+      "name": "GOLDEN PULIDO",
+      "description": "",
+      "images": ["/images-public/porcelain/GOLDEN-PULIDO/GOLDEN-PULIDO-600x1200mmGLOSSY-MAIN.jpeg", "/images-public/porcelain/GOLDEN-PULIDO/GOLDEN-PULIDO_1.jpeg", "/images-public/porcelain/GOLDEN-PULIDO/GOLDEN-PULIDO_2.jpeg", "/images-public/porcelain/GOLDEN-PULIDO/GOLDEN-PULIDO_3.jpeg", "/images-public/porcelain/GOLDEN-PULIDO/GOLDEN-PULIDO_4.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "IMPERIAL-ONYX",
+      "name": "IMPERIAL ONYX",
+      "description": "",
+      "images": ["/images-public/porcelain/IMPERIAL-ONYX/IMPERIAL-ONYX-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/IMPERIAL-ONYX/IMPERIAL-ONYX_1.jpeg", "/images-public/porcelain/IMPERIAL-ONYX/IMPERIAL-ONYX_2.jpeg", "/images-public/porcelain/IMPERIAL-ONYX/IMPERIAL-ONYX_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "KAVALA-BIANCO",
+      "name": "KAVALA BIANCO",
+      "description": "",
+      "images": ["/images-public/porcelain/KAVALA-BIANCO/KAVALA-BIANCO-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/KAVALA-BIANCO/KAVALA-BIANCO_1.jpeg", "/images-public/porcelain/KAVALA-BIANCO/KAVALA-BIANCO_2.jpeg", "/images-public/porcelain/KAVALA-BIANCO/KAVALA-BIANCO_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "NERO-WHITE",
+      "name": "NERO WHITE",
+      "description": "",
+      "images": ["/images-public/porcelain/NERO-WHITE/NERO-WHITE-600x1200mm-GLOSSY-MAIN.jpeg", "/images-public/porcelain/NERO-WHITE/NERO-WHITE_1.jpeg", "/images-public/porcelain/NERO-WHITE/NERO-WHITE_2.jpeg", "/images-public/porcelain/NERO-WHITE/NERO-WHITE_3.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
+    },
+    {
+      "id": "ANKARA-BIANCO",
+      "name": "ANKARA BIANCO",
+      "description": "",
+      "images": ["/images-public/porcelain/ANKARA-BIANCO/ANKARA-BIANCO-600x1200mmGLOSSY-MAIN.jpeg", "/images-public/porcelain/ANKARA-BIANCO/ANKARA-BIANCO_1.jpeg", "/images-public/porcelain/ANKARA-BIANCO/ANKARA-BIANCO_2.jpeg", "/images-public/porcelain/ANKARA-BIANCO/ANKARA-BIANCO_3.jpeg", "/images-public/porcelain/ANKARA-BIANCO/ANKARA-BIANCO_4.jpeg"],
+      "finish": "GLOSSY / MATT",
+      "sizes": ["600x1200mm FOR GLOSSY", "600x600mm FOR MATT"],
+      "applications": ["1"],
+      "whatcasapiuprovides": "77"
     }
   ]
 }

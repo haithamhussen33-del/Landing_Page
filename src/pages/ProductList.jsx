@@ -4,6 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import "../styles/ProductListStyles.css";
 
+//fetch fromm json
 const loadCategoryData = async (category) => {
   try {
     const data = await import(`../ProductsData/${category}.json`);
@@ -20,9 +21,9 @@ export default function ProductList() {
   const [products, setProducts] = useState([]);
   const [categoryData, setCategoryData] = useState(null);
   const [loading, setLoading] = useState(true);
-
+//load in page
   useEffect(() => {
-    setLoading(true);
+    setLoading(true);//important
     loadCategoryData(category)
       .then((data) => {
         if (!data) {

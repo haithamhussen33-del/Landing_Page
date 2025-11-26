@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import "../styles/services1.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Card from "./Card";
-import materialsImg from "../assets/images/services/materials-supply.png";
-import sanitaryImg from "../assets/images/services/sanitary-ware.png";
-import samplesImg from "../assets/images/services/custom-samples.png";
-import logisticsImg from "../assets/images/services/logistics.png";
+import materialsImg from "../assets/images/services/materials-supply.webp";
+import sanitaryImg from "../assets/images/services/sanitary-ware.webp";
+import samplesImg from "../assets/images/services/custom-samples.webp";
+import logisticsImg from "../assets/images/services/logistics.webp";
 
 export default function CardRoulet() {
   const cards = [

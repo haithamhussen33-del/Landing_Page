@@ -1,6 +1,6 @@
 {
   "category": "ceramics",
-  "hero":"/images-public/categoryhero/cerhero1.jpg",
+  "hero":"/images-public/categoryhero/cerhero1.webp",
   "description":"sss",
   "types": [
     {
@@ -8,8 +8,8 @@
       "name": "White Ceramic Tile",
       "description": "Elegant white ceramic tile suitable for floors and walls.",
       "images": [
-        "/images-public/services/ceramics/white-ceramic1.jpg",
-        "/images-public/services/ceramics/white-ceramic2.jpg"
+        "/images-public/services/ceramics/white-ceramic1.webp",
+        "/images-public/services/ceramics/white-ceramic2.webp"
       ],
       "finish": "Glossy",
       "sizes": ["30x30", "60x60"],
@@ -20,7 +20,7 @@
       "id": "grey-ceramic-tile",
       "name": "Grey Ceramic Tile",
       "description": "Modern grey ceramic tile with subtle texture.",
-      "images": ["/images-public/services/ceramics/grey-ceramic1.jpg"],
+      "images": ["/images-public/services/ceramics/grey-ceramic1.webp"],
       "finish": "Matte",
       "sizes": ["30x30", "60x60"],
       "applications": "222",

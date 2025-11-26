@@ -37,6 +37,7 @@ export default function ProductSubTypeInfo() {
 
   return (
     <div className="product-info-container">
+      <h5>Patterns:</h5>
       <div className="product-images-section">
         <div className="carousel-container">
           <button className="carousel-btn prev" onClick={prevImage}>

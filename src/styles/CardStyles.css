@@ -1,4 +1,4 @@
-/* ====== GENERAL LAYOUT ====== */
+/* GENERAL LAYOUT */
 .tow-card-container{
     display: flex;
     flex-direction: row;
@@ -166,9 +166,6 @@
   top: -10%; 
   overflow: hidden;
   border-radius: 12px 12px 0 12px;
-  
- 
-
   border-left: none; 
   
  
